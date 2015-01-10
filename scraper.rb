@@ -13,14 +13,15 @@ require 'nokogiri'   # <- eine bibliothek zum komfortablen arbeiten mit HTML dok
 # extrahiert die daten aus einer einzelnen tabellenzeile
 def parse_row(row)
     cells = row.css('td')
-    return nil if cells.nil?
+    return nil if cells.nil? || cells[1].nil?
 
     {
         "reference"   => extract_id(cells[0]),
         "title"     => extract_text(cells[1]),
         "originator" => extract_text(cells[3]),
         "date"      => extract_text(cells[4]),
-        "paperType"      => extract_text(cells[5])
+        "paperType"      => extract_text(cells[5]),
+        "uri" => "https://ratsinfo.leipzig.de/bi/#{cells[1].css('a').first['href']}"
     }
 end
 
@@ -51,7 +52,7 @@ rows = page.css('table.tl1 tbody tr')
 
 data = rows.map do |row|
     next if row.nil?
-    parse_row(row)
+    p parse_row(row)
 end
 
 # 3. Daten speichern
@@ -59,6 +60,6 @@ end
 unique_keys = [ 'reference' ]
 
 data.each do |record|
-  next if record["reference"].nil?
+  next unless record && record["reference"]
   ScraperWiki.save_sqlite(unique_keys, record)
 end
