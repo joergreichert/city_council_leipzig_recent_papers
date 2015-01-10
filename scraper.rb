@@ -1,24 +1,64 @@
-# This is a template for a Ruby scraper on Morph (https://morph.io)
-# including some code snippets below that you should find helpful
+# ein kleiner scraper für das ratsinformations-system der stadt leipzig
+# mit scraperwiki: https://scraperwiki.com
+#
 
-# require 'scraperwiki'
-# require 'mechanize'
-#
-# agent = Mechanize.new
-#
-# # Read in a page
-# page = agent.get("http://foo.com")
-#
-# # Find somehing on the page using css selectors
-# p page.at('div.content')
-#
-# # Write out to the sqlite database using scraperwiki library
-# ScraperWiki.save_sqlite(["name"], {"name" => "susan", "occupation" => "software developer"})
-#
-# # An arbitrary query against the database
-# ScraperWiki.select("* from data where 'name'='peter'")
+# bibliotheken laden
+require 'scraperwiki'
+require 'nokogiri'   # <- eine bibliothek zum komfortablen arbeiten mit HTML dokumenten
 
-# You don't have to do things with the Mechanize or ScraperWiki libraries. You can use whatever gems are installed
-# on Morph for Ruby (https://github.com/openaustralia/morph-docker-ruby/blob/master/Gemfile) and all that matters
-# is that your final data is written to an Sqlite database called data.sqlite in the current working directory which
-# has at least a table called data.
+#
+# ein paar hilfsfunktionen
+#
+
+# extrahiert die daten aus einer einzelnen tabellenzeile
+def parse_row(row)
+    cells = row.css('td')
+    return nil if cells.nil?
+
+    {
+        "reference"   => extract_id(cells[0]),
+        "title"     => extract_text(cells[1]),
+        "originator" => extract_text(cells[3]),
+        "date"      => extract_text(cells[4]),
+        "paperType"      => extract_text(cells[5])
+    }
+end
+
+# extrahiert die VOLFDNR aus einer tabellenzelle
+def extract_id(cell)
+    return nil if cell.nil?
+    input   = cell.css('input[@name="VOLFDNR"]').first
+    return nil if input.nil?
+    volfdnr = input["value"]
+end
+
+# extrahiert den text aus den tabellenzellen
+def extract_text(cell)
+    return nil if cell.nil?
+    cell.text
+end
+
+#
+# der eigentliche scraper teil
+#
+
+# 1. daten laden
+html = ScraperWiki.scrape("https://ratsinfo.leipzig.de/bi/vo040.asp?showall=true")
+page = Nokogiri::HTML(html)
+
+# 2. zeilen extrahieren
+rows = page.css('table.tl1 tbody tr')
+
+data = rows.map do |row|
+    next if row.nil?
+    parse_row(row)
+end
+
+# 3. Daten speichern
+
+unique_keys = [ 'reference' ]
+
+data.each do |record|
+  next if record["reference"].nil?
+  ScraperWiki.save_sqlite(unique_keys, record)
+end
