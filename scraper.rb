@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'scraperwiki'
 require 'nokogiri'
-require 'html_to_plain_text'
+# require 'html_to_plain_text'
 
 # extrahiert die daten aus einer einzelnen tabellenzeile
 def parse_row(row)
@@ -44,14 +44,20 @@ def extract_text(cell)
   cell.text
 end
 
+def html_to_plain_text(node)
+  # TODO: Use HtmlToPlainText.plain_text(node.to_s) when it's available at morph.io – https://github.com/openaustralia/morph-docker-ruby/pull/2
+  return unless node
+  node.text
+end
+
 def extract_content(page)
-  html = page.css('a[name="allrisSV"] ~ div:first-of-type').first.to_s
-  HtmlToPlainText.plain_text(html)
+  html = page.css('a[name="allrisSV"] ~ div:first-of-type').first
+  html_to_plain_text(html)
 end
 
 def extract_resolution(page)
-  html = page.css('a[name="allrisBV"] ~ div:first-of-type').first.to_s
-  HtmlToPlainText.plain_text(html)
+  html = page.css('a[name="allrisBV"] ~ div:first-of-type').first
+  html_to_plain_text(html)
 end
 
 # Übersicht-Seite laden und Zeilen extrahieren
