@@ -1,65 +1,82 @@
-# ein kleiner scraper für das ratsinformations-system der stadt leipzig
-# mit scraperwiki: https://scraperwiki.com
-#
-
-# bibliotheken laden
+require 'rubygems'
 require 'scraperwiki'
-require 'nokogiri'   # <- eine bibliothek zum komfortablen arbeiten mit HTML dokumenten
-
-#
-# ein paar hilfsfunktionen
-#
+require 'nokogiri'
+require 'html_to_plain_text'
 
 # extrahiert die daten aus einer einzelnen tabellenzeile
 def parse_row(row)
-    cells = row.css('td')
-    return nil if cells.nil? || cells[1].nil?
+  cells = row.css('td')
+  return nil if cells.nil? || cells[1].nil?
+  {
+    type: 'Paper',
+    # body: nil,
+    name: extract_text(cells[1]),
+    reference: extract_id(cells[0]),
+    publishedDate: extract_text(cells[4]),
+    paperType: extract_text(cells[5]),
+    # relatedPaper: [],
+    # mainFile: nil,
+    # auxiliaryFile: nil,
+    # location: nil,
+    originator: extract_text(cells[3]),
+    # consultation: [],
+    # underDirectionOf: [],
+    # modified: nil,
 
-    {
-        "reference"   => extract_id(cells[0]),
-        "title"     => extract_text(cells[1]),
-        "originator" => extract_text(cells[3]),
-        "date"      => extract_text(cells[4]),
-        "paperType"      => extract_text(cells[5]),
-        "uri" => "https://ratsinfo.leipzig.de/bi/#{cells[1].css('a').first['href']}"
-    }
+    # Non Oparl fields
+    # resolution: nil, # "Beschlussvorlage"
+    # content: nil, # "Sachverhalt"
+    uri: "https://ratsinfo.leipzig.de/bi/#{cells[1].css('a').first['href']}",
+  }
 end
 
 # extrahiert die VOLFDNR aus einer tabellenzelle
 def extract_id(cell)
-    return nil if cell.nil?
-    input   = cell.css('input[@name="VOLFDNR"]').first
-    return nil if input.nil?
-    volfdnr = input["value"]
+  return nil if cell.nil?
+  input   = cell.css('input[@name="VOLFDNR"]').first
+  return nil if input.nil?
+  volfdnr = input["value"]
 end
 
 # extrahiert den text aus den tabellenzellen
 def extract_text(cell)
-    return nil if cell.nil?
-    cell.text
+  return nil if cell.nil?
+  cell.text
 end
 
-#
-# der eigentliche scraper teil
-#
+def extract_content(page)
+  html = page.css('a[name="allrisSV"] ~ div:first-of-type').first.to_s
+  HtmlToPlainText.plain_text(html)
+end
 
-# 1. daten laden
-html = ScraperWiki.scrape("https://ratsinfo.leipzig.de/bi/vo040.asp?showall=true")
+def extract_resolution(page)
+  html = page.css('a[name="allrisBV"] ~ div:first-of-type').first.to_s
+  HtmlToPlainText.plain_text(html)
+end
+
+# Übersicht-Seite laden und Zeilen extrahieren
+uri = "https://ratsinfo.leipzig.de/bi/vo040.asp?showall=true"
+puts "Loading index page #{uri}"
+html = ScraperWiki.scrape(uri)
 page = Nokogiri::HTML(html)
-
-# 2. zeilen extrahieren
-rows = page.css('table.tl1 tbody tr')
-
-data = rows.map do |row|
-    next if row.nil?
-    p parse_row(row)
+records = page.css('table.tl1 tbody tr').map do |row|
+  next if row.nil?
+  parse_row(row)
 end
 
-# 3. Daten speichern
+# Detail-Seite laden und Text speichern
+records.each_with_index do |record, i|
+  uri = record[:uri]
+  puts "Loading details page #{i+1} of #{records.length} #{uri}"
+  html = ScraperWiki.scrape(uri)
+  page = Nokogiri::HTML(html)
+  record[:content] = extract_content(page)
+  record[:resolution] = extract_resolution(page)
+end
 
-unique_keys = [ 'reference' ]
-
+# Daten speichern
+unique_keys = [ :reference ]
 data.each do |record|
-  next unless record && record["reference"]
+  next unless record && record[:reference]
   ScraperWiki.save_sqlite(unique_keys, record)
 end
