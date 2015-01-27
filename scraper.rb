@@ -77,10 +77,10 @@ records.each_with_index do |record, i|
   puts "Loading details page #{i+1} of #{records.length} #{uri}"
   html = ScraperWiki.scrape(uri)
   page = Nokogiri::HTML(html)
-  record[:reference] = page.css('#risname h1').text()[9..-1].strip,
+  record[:reference] = page.css('#risname h1').text()[9..-1].strip
   record[:content] = extract_content(page)
   record[:resolution] = extract_resolution(page)
 
   # Daten speichern
-  ScraperWiki.save_sqlite([:id], record) unless record[:id]
+  ScraperWiki.save_sqlite([:id], record)
 end
