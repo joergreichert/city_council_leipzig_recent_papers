@@ -39,7 +39,7 @@ def extract_id(cell)
 end
 
 def extract_word(text)
-  text.gsub(/\t/, ' ').strip
+  text.match(/(\A\W*)(.+)(\W*$)/)[2]
 end
 
 # extrahiert den text aus den tabellenzellen
@@ -81,7 +81,7 @@ records.each_with_index do |record, i|
   puts "Loading details page #{i+1} of #{records.length} #{uri}"
   html = ScraperWiki.scrape(uri)
   page = Nokogiri::HTML(html)
-  record[:reference] = extract_word page.css('#risname h1').text()[9..-1]
+  record[:reference] = extract_word(page.css('#risname h1').text()[9..-1])
   record[:content] = extract_content(page)
   record[:resolution] = extract_resolution(page)
 
