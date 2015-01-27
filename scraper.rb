@@ -72,6 +72,7 @@ end
 
 # Detail-Seite laden und Text speichern
 records.each_with_index do |record, i|
+  next unless record
   uri = record[:id]
   puts "Loading details page #{i+1} of #{records.length} #{uri}"
   html = ScraperWiki.scrape(uri)
@@ -82,8 +83,8 @@ records.each_with_index do |record, i|
 end
 
 # Daten speichern
-unique_keys = [ :reference ]
-data.each do |record|
-  next unless record && record[:reference]
+unique_keys = [ :id ]
+records.each do |record|
+  next unless record && record[:id]
   ScraperWiki.save_sqlite(unique_keys, record)
 end
