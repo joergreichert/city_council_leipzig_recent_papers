@@ -80,11 +80,7 @@ records.each_with_index do |record, i|
   record[:reference] = page.css('#risname h1').text()[9..-1].strip,
   record[:content] = extract_content(page)
   record[:resolution] = extract_resolution(page)
-end
 
-# Daten speichern
-unique_keys = [ :id ]
-records.each do |record|
-  next unless record && record[:id]
-  ScraperWiki.save_sqlite(unique_keys, record)
+  # Daten speichern
+  ScraperWiki.save_sqlite([:id], record) unless record[:id]
 end
