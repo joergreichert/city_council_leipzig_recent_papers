@@ -38,6 +38,10 @@ def extract_id(cell)
   volfdnr = input["value"]
 end
 
+def extract_word(text)
+  text.gsub(/\t/, ' ').strip
+end
+
 # extrahiert den text aus den tabellenzellen
 def extract_text(cell)
   return nil if cell.nil?
@@ -77,7 +81,7 @@ records.each_with_index do |record, i|
   puts "Loading details page #{i+1} of #{records.length} #{uri}"
   html = ScraperWiki.scrape(uri)
   page = Nokogiri::HTML(html)
-  record[:reference] = page.css('#risname h1').text()[9..-1].strip
+  record[:reference] = extract_word page.css('#risname h1').text()[9..-1]
   record[:content] = extract_content(page)
   record[:resolution] = extract_resolution(page)
 
