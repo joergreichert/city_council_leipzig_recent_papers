@@ -8,10 +8,11 @@ def parse_row(row)
   cells = row.css('td')
   return nil if cells.nil? || cells[1].nil?
   {
+    id: "https://ratsinfo.leipzig.de/bi/#{cells[1].css('a').first['href']}",
     type: 'Paper',
     # body: nil,
     name: extract_text(cells[1]),
-    reference: extract_id(cells[0]),
+    # reference: nil,
     publishedDate: extract_text(cells[4]),
     paperType: extract_text(cells[5]),
     # relatedPaper: [],
@@ -26,7 +27,6 @@ def parse_row(row)
     # Non Oparl fields
     # resolution: nil, # "Beschlussvorlage"
     # content: nil, # "Sachverhalt"
-    uri: "https://ratsinfo.leipzig.de/bi/#{cells[1].css('a').first['href']}",
   }
 end
 
@@ -72,10 +72,11 @@ end
 
 # Detail-Seite laden und Text speichern
 records.each_with_index do |record, i|
-  uri = record[:uri]
+  uri = record[:id]
   puts "Loading details page #{i+1} of #{records.length} #{uri}"
   html = ScraperWiki.scrape(uri)
   page = Nokogiri::HTML(html)
+  record[:reference] = page.css('#risname h1').text()[9..-1].strip,
   record[:content] = extract_content(page)
   record[:resolution] = extract_resolution(page)
 end
