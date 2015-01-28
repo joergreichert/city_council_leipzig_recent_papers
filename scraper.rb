@@ -1,8 +1,7 @@
-# encoding: utf-8
 require 'rubygems'
 require 'scraperwiki'
 require 'nokogiri'
-# require 'html_to_plain_text'
+require 'html_to_plain_text'
 
 
 def expand_uri(path)
@@ -55,9 +54,8 @@ def extract_text(cell)
 end
 
 def html_to_plain_text(node)
-  # TODO: Use HtmlToPlainText.plain_text(node.to_s) when it's available at morph.io – https://github.com/openaustralia/morph-docker-ruby/pull/2
   return unless node
-  node.text
+  HtmlToPlainText.plain_text(node.to_s)
 end
 
 def extract_content(page)
