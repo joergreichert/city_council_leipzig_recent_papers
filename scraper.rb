@@ -3,12 +3,17 @@ require 'scraperwiki'
 require 'nokogiri'
 # require 'html_to_plain_text'
 
+
+def expand_uri(path)
+  "https://ratsinfo.leipzig.de/bi/#{path}"
+end
+
 # extrahiert die daten aus einer einzelnen tabellenzeile
 def parse_row(row)
   cells = row.css('td')
   return nil if cells.nil? || cells[1].nil?
   {
-    id: "https://ratsinfo.leipzig.de/bi/#{cells[1].css('a').first['href']}",
+    id: expand_uri(cells[1].css('a').first['href']),
     type: 'Paper',
     # body: nil,
     name: extract_text(cells[1]),
@@ -64,6 +69,12 @@ def extract_resolution(page)
   html_to_plain_text(html)
 end
 
+def extract_related_paper(page)
+  page.css('.ko1 td:contains("Bezüglich:") ~ td a').map { |a|
+    expand_uri(a["href"])
+  }.join(',')
+end
+
 # Übersicht-Seite laden und Zeilen extrahieren
 uri = "https://ratsinfo.leipzig.de/bi/vo040.asp?showall=true"
 puts "Loading index page #{uri}"
@@ -84,6 +95,7 @@ records.each_with_index do |record, i|
   record[:reference] = extract_word(page.css('#risname h1').text()[9..-1])
   record[:content] = extract_content(page)
   record[:resolution] = extract_resolution(page)
+  record[:relatedPaper] = extract_related_paper(page)
 
   # Daten speichern
   ScraperWiki.save_sqlite([:id], record)
