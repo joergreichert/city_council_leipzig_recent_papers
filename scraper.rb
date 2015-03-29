@@ -3,13 +3,39 @@ require 'scraperwiki'
 require 'nokogiri'
 require 'html_to_plain_text'
 
+@retries = []
+
+def will_retry(method_name, *arguments)
+  @retries.push({method: method_name, arguments: arguments})
+end
+
+def download(uri)
+  ScraperWiki.scrape(uri)  
+end
+
 def scrape(uri)
   begin
-    yield ScraperWiki.scrape(uri)  
+    html = download(uri)
+    yield html
   rescue Exception => e
     puts "Could not load #{uri.inspect}"
     puts e
     return false
+  end
+end
+
+def scrape_detail_page(uri)
+  if scrape(uri) { |html|
+      page = Nokogiri::HTML(html)
+      record[:reference] = extract_word(page.css('#risname h1').text()[9..-1])
+      record[:content] = extract_content(page)
+      record[:resolution] = extract_resolution(page)
+      record[:relatedPaper] = extract_related_paper(page)
+      # Daten speichern
+      ScraperWiki.save_sqlite([:id], record)
+    }
+  else
+    will_retry(:scrape_detail_page, uri)
   end
 end
 
@@ -86,12 +112,10 @@ end
 # Übersicht-Seite laden und Zeilen extrahieren
 uri = "https://ratsinfo.leipzig.de/bi/vo040.asp?showall=true"
 puts "Loading index page #{uri}"
-records = scrape(uri) do |html|
-  page = Nokogiri::HTML(html)
-  page.css('table.tl1 tbody tr').map do |row|
-    next if row.nil?
-    parse_row(row)
-  end
+page = Nokogiri::HTML(download(uri))
+records = page.css('table.tl1 tbody tr').map do |row|
+  next if row.nil?
+  parse_row(row)
 end
 
 # Detail-Seite laden und Text speichern
@@ -99,13 +123,11 @@ records.each_with_index do |record, i|
   next unless record
   uri = record[:id]
   puts "Loading details page #{i+1} of #{records.length} #{uri}"
-  scrape(uri) do |html|
-    page = Nokogiri::HTML(html)
-    record[:reference] = extract_word(page.css('#risname h1').text()[9..-1])
-    record[:content] = extract_content(page)
-    record[:resolution] = extract_resolution(page)
-    record[:relatedPaper] = extract_related_paper(page)
-    # Daten speichern
-    ScraperWiki.save_sqlite([:id], record)
-  end
+  scrape_detail_page(uri)
+end
+
+puts "Retrying #{@retries.length} failed…"
+sleep 5
+@retries.each do |task|
+  send(task[:method], *task[:arguments])
 end
