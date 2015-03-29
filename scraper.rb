@@ -3,6 +3,15 @@ require 'scraperwiki'
 require 'nokogiri'
 require 'html_to_plain_text'
 
+def scrape(uri)
+  begin
+    yield ScraperWiki.scrape(uri)  
+  rescue Exception => e
+    puts "Could not load #{uri.inspect}"
+    puts e
+    return false
+  end
+end
 
 def expand_uri(path)
   "https://ratsinfo.leipzig.de/bi/#{path}"
@@ -77,11 +86,12 @@ end
 # Übersicht-Seite laden und Zeilen extrahieren
 uri = "https://ratsinfo.leipzig.de/bi/vo040.asp?showall=true"
 puts "Loading index page #{uri}"
-html = ScraperWiki.scrape(uri)
-page = Nokogiri::HTML(html)
-records = page.css('table.tl1 tbody tr').map do |row|
-  next if row.nil?
-  parse_row(row)
+records = scrape(uri) do |html|
+  page = Nokogiri::HTML(html)
+  page.css('table.tl1 tbody tr').map do |row|
+    next if row.nil?
+    parse_row(row)
+  end
 end
 
 # Detail-Seite laden und Text speichern
@@ -89,13 +99,13 @@ records.each_with_index do |record, i|
   next unless record
   uri = record[:id]
   puts "Loading details page #{i+1} of #{records.length} #{uri}"
-  html = ScraperWiki.scrape(uri)
-  page = Nokogiri::HTML(html)
-  record[:reference] = extract_word(page.css('#risname h1').text()[9..-1])
-  record[:content] = extract_content(page)
-  record[:resolution] = extract_resolution(page)
-  record[:relatedPaper] = extract_related_paper(page)
-
-  # Daten speichern
-  ScraperWiki.save_sqlite([:id], record)
+  scrape(uri) do |html|
+    page = Nokogiri::HTML(html)
+    record[:reference] = extract_word(page.css('#risname h1').text()[9..-1])
+    record[:content] = extract_content(page)
+    record[:resolution] = extract_resolution(page)
+    record[:relatedPaper] = extract_related_paper(page)
+    # Daten speichern
+    ScraperWiki.save_sqlite([:id], record)
+  end
 end
