@@ -16,15 +16,15 @@ end
 def scrape(uri)
   begin
     html = download(uri)
-    yield html
   rescue Exception => e
     puts "Could not load #{uri.inspect}"
     puts e
     return false
   end
+  yield html
 end
 
-def scrape_detail_page(uri)
+def scrape_detail_page(record, uri)
   if scrape(uri) { |html|
       page = Nokogiri::HTML(html)
       record[:reference] = extract_word(page.css('#risname h1').text()[9..-1])
@@ -35,7 +35,7 @@ def scrape_detail_page(uri)
       ScraperWiki.save_sqlite([:id], record)
     }
   else
-    will_retry(:scrape_detail_page, uri)
+    will_retry(:scrape_detail_page, record, uri)
   end
 end
 
@@ -123,7 +123,7 @@ records.each_with_index do |record, i|
   next unless record
   uri = record[:id]
   puts "Loading details page #{i+1} of #{records.length} #{uri}"
-  scrape_detail_page(uri)
+  scrape_detail_page(record, uri)
 end
 
 puts "Retrying #{@retries.length} failed…"
