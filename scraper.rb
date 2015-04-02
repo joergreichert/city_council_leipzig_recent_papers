@@ -24,18 +24,19 @@ def scrape(uri)
   yield html
 end
 
-def scrape_detail_page(record, uri)
+def scrape_detail_page(record, uri, retry_if_failed: true)
   if scrape(uri) { |html|
       page = Nokogiri::HTML(html)
       record[:reference] = extract_word(page.css('#risname h1').text()[9..-1])
       record[:content] = extract_content(page)
       record[:resolution] = extract_resolution(page)
       record[:relatedPaper] = extract_related_paper(page)
+      record[:scraped_at] = Time.now
       # Daten speichern
       ScraperWiki.save_sqlite([:id], record)
     }
-  else
-    will_retry(:scrape_detail_page, record, uri)
+  elsif retry_if_failed
+    will_retry(:scrape_detail_page, record, uri, retry_if_failed: false)
   end
 end
 
