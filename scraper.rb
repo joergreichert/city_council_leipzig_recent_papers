@@ -10,7 +10,7 @@ def will_retry(method_name, *arguments)
 end
 
 def download(uri)
-  ScraperWiki.scrape(uri)  
+  ScraperWiki.scrape(uri)
 end
 
 def scrape(uri)
@@ -27,7 +27,6 @@ end
 def scrape_detail_page(record, uri, retry_if_failed: true)
   if scrape(uri) { |html|
       page = Nokogiri::HTML(html)
-      record[:reference] = extract_word(page.css('#risname h1').text()[9..-1])
       record[:content] = extract_content(page)
       record[:resolution] = extract_resolution(page)
       record[:relatedPaper] = extract_related_paper(page)
@@ -48,12 +47,13 @@ end
 def parse_row(row)
   cells = row.css('td')
   return nil if cells.nil? || cells[1].nil?
+  name_text = extract_text(cells[1]).match(/([-\w\/]+)(.*)/)
   {
     id: expand_uri(cells[1].css('a').first['href']),
     type: 'Paper',
     # body: nil,
-    name: extract_text(cells[1]),
-    # reference: nil,
+    reference: name_text[1],
+    name: name_text[2][/\w.*/],
     publishedDate: extract_text(cells[4]),
     paperType: extract_text(cells[5]),
     # relatedPaper: [],
