@@ -32,7 +32,7 @@ def scrape_detail_page(record, uri, retry_if_failed: true)
       record[:relatedPaper] = extract_related_paper(page)
       record[:scraped_at] = Time.now
       # Daten speichern
-      ScraperWiki.save_sqlite([:id], record)
+      ScraperWiki.save_sqlite([:id], record, 'data')
     }
   elsif retry_if_failed
     will_retry(:scrape_detail_page, record, uri, retry_if_failed: false)
