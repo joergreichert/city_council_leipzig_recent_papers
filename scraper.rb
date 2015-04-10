@@ -3,6 +3,8 @@ require 'scraperwiki'
 require 'nokogiri'
 require 'html_to_plain_text'
 
+ScraperWiki.config = { db: 'data.sqlite' }
+
 @retries = []
 
 def will_retry(method_name, *arguments)
