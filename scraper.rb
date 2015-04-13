@@ -31,7 +31,7 @@ def scrape_detail_page(record, uri, retry_if_failed: true)
       page = Nokogiri::HTML(html)
       record[:content] = extract_content(page)
       record[:resolution] = extract_resolution(page)
-      record[:relatedPaper] = extract_related_paper(page)
+      record[:related_paper_id] = extract_related_paper(page)
       record[:scraped_at] = Time.now
       # Daten speichern
       ScraperWiki.save_sqlite([:id], record, 'data')
@@ -50,26 +50,15 @@ def parse_row(row)
   cells = row.css('td')
   return nil if cells.nil? || cells[1].nil?
   name_text = extract_text(cells[1]).match(/([-\w\/]+)(.*)/)
+  url = expand_uri(cells[1].css('a').first['href'])
   {
-    id: expand_uri(cells[1].css('a').first['href']),
-    type: 'Paper',
-    # body: nil,
+    id: url,
+    url: url,
     reference: name_text[1],
     name: name_text[2][/\w.*/],
-    publishedDate: Date.parse(extract_text(cells[4])),
-    paperType: extract_text(cells[5]),
-    # relatedPaper: [],
-    # mainFile: nil,
-    # auxiliaryFile: nil,
-    # location: nil,
+    published_at: Date.parse(extract_text(cells[4])),
+    paper_type: extract_text(cells[5]),
     originator: extract_text(cells[3]),
-    # consultation: [],
-    # underDirectionOf: [],
-    # modified: nil,
-
-    # Non Oparl fields
-    # resolution: nil, # "Beschlussvorlage"
-    # content: nil, # "Sachverhalt"
   }
 end
 
@@ -124,7 +113,7 @@ end
 # Detail-Seite laden und Text speichern
 records.each_with_index do |record, i|
   next unless record
-  uri = record[:id]
+  uri = record[:url]
   puts "Loading details page #{i+1} of #{records.length} #{uri}"
   scrape_detail_page(record, uri)
 end
