@@ -56,7 +56,7 @@ def parse_row(row)
     # body: nil,
     reference: name_text[1],
     name: name_text[2][/\w.*/],
-    publishedDate: extract_text(cells[4]),
+    publishedDate: Date.parse(extract_text(cells[4])),
     paperType: extract_text(cells[5]),
     # relatedPaper: [],
     # mainFile: nil,
