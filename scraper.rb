@@ -18,7 +18,7 @@ end
 def scrape(uri)
   begin
     html = download(uri)
-  rescue Exception => e
+  rescue StandardError => e
     puts "Could not load #{uri.inspect}"
     puts e
     return false
