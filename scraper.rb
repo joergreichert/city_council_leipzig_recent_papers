@@ -1,9 +1,23 @@
 require 'rubygems'
 require 'scraperwiki'
 require 'nokogiri'
+require 'yaml'
 require 'html_to_plain_text'
 
 ScraperWiki.config = { db: 'data.sqlite' }
+@config = YAML.load(File.read('./config.yml'))
+
+def index_uri
+  expand_uri(@config['recent_papers_path'])
+end
+
+def base_uri
+  @config['base_uri']
+end
+
+def expand_uri(path)
+  "#{base_uri}/#{path}"
+end
 
 @retries = []
 
@@ -29,6 +43,7 @@ end
 def scrape_detail_page(record, uri, retry_if_failed: true)
   if scrape(uri) { |html|
       page = Nokogiri::HTML(html)
+      record[:reference] = extract_reference(page)
       record[:content] = extract_content(page)
       record[:resolution] = extract_resolution(page)
       record[:related_paper_id] = extract_related_paper(page)
@@ -41,10 +56,6 @@ def scrape_detail_page(record, uri, retry_if_failed: true)
   end
 end
 
-def expand_uri(path)
-  "https://ratsinfo.leipzig.de/bi/#{path}"
-end
-
 # extrahiert die daten aus einer einzelnen tabellenzeile
 def parse_row(row)
   cells = row.css('td')
@@ -54,7 +65,7 @@ def parse_row(row)
   {
     id: url,
     url: url,
-    reference: name_text[1],
+    body: @config['body'],
     name: name_text[2][/\w.*/],
     published_at: Date.parse(extract_text(cells[4])),
     paper_type: extract_text(cells[5]),
@@ -85,6 +96,10 @@ def html_to_plain_text(node)
   HtmlToPlainText.plain_text(node.to_s)
 end
 
+def extract_reference(page)
+  page.css('#risname').first.text.match(/(Vorlage - )(.*)/)[2].strip
+end
+
 def extract_content(page)
   html = page.css('a[name="allrisSV"] ~ div:first-of-type').first
   html_to_plain_text(html)
@@ -102,7 +117,7 @@ def extract_related_paper(page)
 end
 
 # Übersicht-Seite laden und Zeilen extrahieren
-uri = "https://ratsinfo.leipzig.de/bi/vo040.asp?showall=true"
+uri = index_uri
 puts "Loading index page #{uri}"
 page = Nokogiri::HTML(download(uri))
 records = page.css('table.tl1 tbody tr').map do |row|
