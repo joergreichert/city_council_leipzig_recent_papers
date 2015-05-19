@@ -44,6 +44,7 @@ def scrape_detail_page(record, uri, retry_if_failed: true)
   if scrape(uri) { |html|
       page = Nokogiri::HTML(html)
       record[:reference] = extract_reference(page)
+      record[:name] = extract_name(page)
       record[:content] = extract_content(page)
       record[:resolution] = extract_resolution(page)
       record[:related_paper_id] = extract_related_paper(page)
@@ -60,13 +61,11 @@ end
 def parse_row(row)
   cells = row.css('td')
   return nil if cells.nil? || cells[1].nil?
-  name_text = extract_text(cells[1]).match(/([-\w\/]+)(.*)/)
   url = expand_uri(cells[1].css('a').first['href'])
   {
     id: url,
     url: url,
     body: @config['body'],
-    name: name_text[2][/\w.*/],
     published_at: Date.parse(extract_text(cells[4])),
     paper_type: extract_text(cells[5]),
     originator: extract_text(cells[3]),
@@ -98,6 +97,11 @@ end
 
 def extract_reference(page)
   page.css('#risname').first.text.match(/(Vorlage - )(.*)/)[2].strip
+end
+
+def extract_name(page)
+  html = page.css('.ko1 td:contains("Betreff:") ~ td').first
+  html_to_plain_text(html).chomp(' |')
 end
 
 def extract_content(page)
