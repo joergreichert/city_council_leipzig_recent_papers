@@ -62,11 +62,12 @@ def parse_row(row)
   cells = row.css('td')
   return nil if cells.nil? || cells[1].nil?
   url = expand_uri(cells[1].css('a').first['href'])
+  published_at = extract_text(cells[4])
   {
     id: url,
     url: url,
     body: @config['body'],
-    published_at: Date.parse(extract_text(cells[4])),
+    published_at: (Date.parse(published_at) unless published_at.empty?),
     paper_type: extract_text(cells[5]),
     originator: extract_text(cells[3]),
   }
