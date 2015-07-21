@@ -125,7 +125,9 @@ end
 uri = index_uri
 puts "Loading index page #{uri}"
 page = Nokogiri::HTML(download(uri))
-records = page.css('table.tl1 tbody tr').map do |row|
+rows = page.css('table.tl1 tbody tr')
+rows = rows.take(@config['recent_papers_limit']) if @config['recent_papers_limit']
+records =  rows.map do |row|
   next if row.nil?
   parse_row(row)
 end
