@@ -3,6 +3,7 @@ require 'scraperwiki'
 require 'nokogiri'
 require 'yaml'
 require 'html_to_plain_text'
+require 'active_support/core_ext/string'
 
 ScraperWiki.config = { db: 'data.sqlite' }
 @config = YAML.load(File.read('./config.yml'))
@@ -97,7 +98,7 @@ def html_to_plain_text(node)
 end
 
 def extract_reference(page)
-  page.css('#risname').first.text.match(/(Vorlage - )(.*)/)[2].strip
+  page.css('#risname').first.text.match(/(Vorlage - )(.*)/)[2].squish
 end
 
 def extract_name(page)
