@@ -74,14 +74,6 @@ def parse_row(row)
   }
 end
 
-# extrahiert die VOLFDNR aus einer tabellenzelle
-def extract_id(cell)
-  return nil if cell.nil?
-  input   = cell.css('input[@name="VOLFDNR"]').first
-  return nil if input.nil?
-  volfdnr = input["value"]
-end
-
 def extract_word(text)
   text.match(/(\A\W*)(.+)(\W*$)/)[2]
 end
