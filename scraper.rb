@@ -109,8 +109,7 @@ end
 
 def extract_content(page)
   html = page.css('a[name="allrisSV"] ~ div:first-of-type').first
-  text = html_to_plain_text(html)
-  text && text.match(/(\-*)(.*)/)[2]
+  html_to_plain_text(html)
 end
 
 def extract_resolution(page)
