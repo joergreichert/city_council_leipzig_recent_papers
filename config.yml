@@ -1,4 +1,4 @@
-base_uri: http://celle.allris-online.de/bi
-body: 'Celle'
-recent_papers_path: vo040.asp
-recent_papers_limit: 300
+base_uri: http://www.stadtquickborn.sitzung-online.de/bi
+body: 'Quickborn'
+recent_papers_path: vo040.asp?showall=true
+recent_papers_limit: 400
