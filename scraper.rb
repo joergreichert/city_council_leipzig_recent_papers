@@ -26,7 +26,7 @@ class Page < Struct.new(:uri)
   end
 end
 
-class Index < Page
+class PaperIndex < Page
   def papers
     rows = doc.css('table.tl1 tbody tr')
     rows = rows.take(Scraper.config['recent_papers_limit'])
@@ -137,7 +137,7 @@ end
 
 ScraperWiki.config = { db: 'data.sqlite' }
 
-index = Index.new(Scraper.expand_uri(Scraper.config['recent_papers_path']))
+index = PaperIndex.new(Scraper.expand_uri(Scraper.config['recent_papers_path']))
 index.papers.each do |paper|
   paper.attributes
   ScraperWiki.save_sqlite([:id], paper.attributes, 'data')
