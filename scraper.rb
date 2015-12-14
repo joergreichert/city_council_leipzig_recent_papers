@@ -32,7 +32,9 @@ class PaperIndex < Page
     rows = rows.take(Scraper.config['recent_papers_limit'])
     rows.map! do |row|
       parse_row_to_paper(row)
-    end.compact!
+    end
+    rows.compact!
+    rows
   end
 
   private
