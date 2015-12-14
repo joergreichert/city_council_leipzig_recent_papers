@@ -5,3 +5,8 @@ gem 'scraperwiki'
 gem 'nokogiri'
 gem 'activesupport'
 gem 'html_to_plain_text'
+
+
+group :test, :development do
+  gem 'pry'
+end

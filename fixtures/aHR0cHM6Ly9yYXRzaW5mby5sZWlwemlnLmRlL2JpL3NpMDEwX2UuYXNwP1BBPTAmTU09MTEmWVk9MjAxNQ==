@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<title>Sitzungskalender</title>
+	<meta name="description" content="ALLRIS net Version 3.8.8 (140528m)" />
+	<meta name="language" content="de" />
+	<meta name="keywords" content="Ratsinformationssystem, Ratsinfo, Sitzungsdienst, ALLRIS" />
+	<meta name="classification" content="Government" />
+	<meta name="rating" content="Safe For Kids" />
+	<link rel="shortcut icon" type="image/x-icon" href="images/ALLRIS.ico" />
+	<link rel="stylesheet" href="conf/_styles.css" />
+	<link href="si010_e.asp?selfaction=ws&amp;template=rss1&amp;xsl=rss&amp;rss=1&amp;sid=990d532dd9cb33282e2e8f1a5af8dd1f" rel="alternate" type="application/rss+xml" title="Aktuelle Sitzungen" />
+	<meta name="infoID" content="33.3880009" />
+</head><body ><div>
+<div id="allriscontainer" class="si010">
+<div id="risleft"><div id="rislogo"><p class="topLogo"><a href="http://www.leipzig.de" target="_blank" title="Stadt Leipzig"><img src="images/skin/logoSL.png" alt="Logo Stadt Leipzig"/></a></p></div>
+<div id="risvari"><p class="topLeft">Sitzungsdienst</p></div>
+<div id="riswrap"><div id="rismenu"><ul id="menu">
+<li><strong><div style="float: left;padding: 0 0.8em 0 0.65em;"><a href="/bi/si010_e.asp?PA=0&MM=11&YY=2015&amp;toggleMenu=1" title="Reduzieren">Bürgerinfo</a></div><div style="text-align: right;"><a href="/bi/si010_e.asp?PA=0&MM=11&YY=2015&amp;toggleMenu=-1" style="display:inline;"><img src="images/expand.gif" alt="Alle erweitern" title="Alle erweitern" /></a><a href="/bi/si010_e.asp?PA=0&MM=11&YY=2015&amp;toggleMenu=-2" style="display:inline;"><img src="images/collapse.gif" alt="Alle reduzieren" title="Alle reduzieren" /></a></div></strong></li>
+<li>
+	<ul>
+	<li><a href="allris.net.asp" title="Startseite">Startseite</a></li>
+	<li><a href="pa021.asp" title="Ratsversammlung">Ratsversammlung</a></li>
+	<li><a href="au020.asp?AULFDNR=1000015">Jugendparlament</a></li>
+	<li><a href="au010.asp?T1=Aussch%FCsse&amp;AU=Ausschuss&amp;SORTVON=0&amp;SORTBIS=98">Ausschüsse</a></li>
+	<li><a href="au010.asp?T1=Beir%E4te&amp;AU=Beirat&amp;SORTVON=100&amp;SORTBIS=200">Beiräte</a></li>
+	<li><a href="au010.asp?T1=Ortschaftsr%E4te&amp;AU=Ortschaftsrat&amp;SORTVON=301&amp;SORTBIS=400">Ortschaftsräte</a></li>
+	<li><a href="au010.asp?T1=Stadtbezirksbeir%E4te&amp;AU=Stadtbezirksbeirat&amp;SORTVON=401&amp;SORTBIS=500">Stadtbezirksbeiräte</a></li>
+	<li><a href="au010.asp?T1=Zweckverb%E4nde+etc%2E&amp;AU=Zweckverband&amp;SORTVON=601&amp;SORTBIS=700">Zweckverbände etc.</a></li>
+	<li><a href="fr010.asp?SELECT=1&amp;T1=Fraktionen+%26+Gruppen&amp;FR=Fraktion" title="Fraktionen und Gruppen in den politischen Gremien">Fraktionen & Gruppen</a></li>
+	</ul>
+</li>
+<li><strong><a href="/bi/si010_e.asp?PA=0&MM=11&YY=2015&amp;toggleMenu=2" title="Reduzieren">Sitzungen</a></strong></li>
+<li>
+	<ul>
+	<li><a href="si010_e.asp" title="Sitzungstermine aller Gremien">Kalender</a></li>
+	<li><a href="si018_a.asp" title="Recherche nach wählbaren Suchkriterien">Übersicht</a></li>
+	</ul>
+</li>
+<li><strong><a href="/bi/si010_e.asp?PA=0&MM=11&YY=2015&amp;toggleMenu=3" title="Reduzieren">Vorlagen</a></strong></li>
+<li>
+	<ul>
+	<li><a href="vo040.asp" title="Recherche nach wählbaren Suchkriterien">Übersicht</a></li>
+	<li><a href="vo036.asp" title="Aktuelle Vorlagen (Vorlage freigegeben in den letzten 14 Tagen)">aktuell</a></li>
+	</ul>
+</li>
+<li><strong><a href="/bi/si010_e.asp?PA=0&MM=11&YY=2015&amp;toggleMenu=4" title="Reduzieren">Recherche</a></strong></li>
+<li>
+	<ul>
+	<li><a href="yw010.asp" title="Volltextsuche in Vorlagen, Sitzungen und Beschlüssen">Textrecherche</a></li>
+	<li><a href="kp040.asp">Sitzungsteilnehmer</a></li>
+<li><a href="http://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/satzungen/" target="_blank" title="Sammlung des Stadtrechtes">Stadtrecht</a></li>
+	</ul>
+</li>
+<li><strong><a href="/bi/si010_e.asp?PA=0&MM=11&YY=2015&amp;toggleMenu=5" title="Reduzieren">Service</a></strong></li>
+<li>
+	<ul>
+	<li><a href="ba051.asp" title="Petition">Online-Petition einreichen</a></li>
+	</ul>
+</li>
+<li><strong><a href="/bi/si010_e.asp?PA=0&MM=11&YY=2015&amp;toggleMenu=6" title="Reduzieren">Kontakt</a></strong></li>
+<li>
+	<ul>
+	<li><a href="impressum.asp" title="Impressum">Kontakt/Impressum</a></li>
+	</ul>
+</li>
+<li><strong><a href="/bi/si010_e.asp?PA=0&MM=11&YY=2015&amp;toggleMenu=7" title="Reduzieren">Hilfe</a></strong></li>
+<li>
+	<ul>
+	<li><a href="legende.asp" title="Legende">Nutzerhinweise, Legende</a></li>
+	</ul>
+</li>
+<li><a href="http://notes.leipzig.de/eris/eris.nsf" title="eRIS Archiv">RatsInfo eRIS Archiv</a></li>
+<li><strong><a href="/bi/si010_e.asp?PA=0&MM=11&YY=2015&amp;toggleMenu=8" title="Reduzieren">Login</a></strong></li>
+<li>
+	<ul>
+<li><a href="https://ratsinfo.leipzig.de/ri/allris.net.asp" title=" Login Stadträte">Stadträtinnen/Stadträte</a></li>
+	</ul>
+</li>
+</ul>
+</div></div>
+</div>
+<div id="risright"><div id="rishead"><p class="topHeadline">Ratsinformationssystem</p></div>
+<div id="risnavi"><ul id="navi_right">
+<li><form action="si010_e.asp?PA=0&amp;MM=11&amp;YY=2015" target="_blank" method="post" title="Druckansicht für diese Seite"><input type="image" src="images/print.gif" alt="Druckansicht für diese Seite"  /><input type="hidden" name="kaldatvonbis" value="01.11.2015-30.11.2015"  /><input type="hidden" name="selfAction" value="Druckansicht für diese Seite"  /></form></li>
+<li><form action="si010_e.asp?PA=0&amp;MM=11&amp;YY=2015" method="post"><input type="image" src="images/calexp2.gif" alt="Sitzungstermine im Outlook-kompatiblen Format exportieren" title="Sitzungstermine im Outlook-kompatiblen Format exportieren"  /><input type="hidden" name="kaldatvonbis" value="01.11.2015-30.11.2015"  /><input type="hidden" name="selfAction" value="Inhalte exportieren"  /></form></li>
+<li><a href="webcal://ratsinfo.leipzig.de/bi/si010_e.asp?PALFDNR=2387&amp;selfaction=ws&amp;template=ical&amp;rss=128&amp;sid=990d532dd9cb33282e2e8f1a5af8dd1f" title="Sitzungstermine als Internetkalender abonnieren"><img src="images/calexp.gif" alt="Sitzungstermine als Internetkalender abonnieren" /></a></li>
+<li><a href="si010_e.asp?selfaction=ws&amp;template=rss1&amp;xsl=rss&amp;rss=1&amp;sid=990d532dd9cb33282e2e8f1a5af8dd1f" target="_blank" title="RSS-Feed 'Aktuelle Sitzungen' abonnieren"><img src="images/rss.gif" alt="RSS-Feed 'Aktuelle Sitzungen' abonnieren" /></a></li>
+</ul></div>
+<div id="risname"><h1>Sitzungskalender&nbsp;&nbsp;</h1>
+<div id="risprop"></div>
+<div id="rismain"><div id="posOuterLocator"></div><table class="risdeco" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td><img src="images/deco/nodeco/nw.gif" alt=""  /></td>
+		<td width="100%" style="background: URL(images/deco/nodeco/n.gif) repeat-x">&nbsp;</td>
+		<td><img src="images/deco/nodeco/ne.gif" alt=""  /></td>
+	</tr>
+	<tr>
+		<td style="background: URL(images/deco/nodeco/w.gif) repeat-y">&nbsp;</td>
+		<td bgcolor="white"><script language="Javascript" type="text/javascript"><!--
+//<![CDATA[
+	function showCal(formName, elem, posDiv) {
+		showCalPos(formName, elem, 0, 25, posDiv);
+	}
+
+	function showCalPos(formName, elem, xPos, yPos, posDiv) {
+		document.getElementById(elem).blur();
+		mm = document.getElementById(elem).value.slice(3,5);
+		yy = document.getElementById(elem).value.slice(6,10);
+		elem = formName + '.' + elem;
+		if (mm >= 1 && mm <= 12 && yy > 0) {
+			showCalendar(elem, mm, yy, xPos, yPos, posDiv);
+		} else {
+			showCalendar(elem, '', '', xPos, yPos, posDiv);
+		}
+	}
+
+	function on_change() {
+	}
+
+//]]>
+--></script>
+<script type="text/javascript" language="Javascript" src="opt/forum/calControl.js"></script>
+	<table width="100%" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td width="50%">&nbsp;</td>		<td nowrap="nowrap"><h2 align="center">November&nbsp;2015</h2>		</td>		<td width="50%">&nbsp;</td>	</tr>
+	</table>
+	<table width="100%" cellspacing="2" cellpadding="1" border="0">
+	<tr>
+		<td><div id="posInnerLocator" style="position:absolute;"></div>&nbsp;</td>		<td align="center" style="border: 1px solid #888a85;"><a href="/bi/si010_e.asp?PA=0&amp;MM=11&amp;YY=2010" title="5 Jahre zurück" style="display: block;">&lt;&lt;</a></td>		<td align="center" style="border: 1px solid #888a85;"><a href="/bi/si010_e.asp?PA=0&amp;MM=11&amp;YY=2013" title="November 2013" style="display: block;">2013</a></td>		<td align="center" style="border: 1px solid #888a85;"><a href="/bi/si010_e.asp?PA=0&amp;MM=11&amp;YY=2014" title="November 2014" style="display: block;">2014</a></td>		<td align="center" style="border: 1px solid #888a85; vertical-align: middle;" class="zl17" >2015</td>		<td align="center" style="border: 1px solid #888a85;"><a href="/bi/si010_e.asp?PA=0&amp;MM=11&amp;YY=2016" title="November 2016" style="display: block;">2016</a></td>		<td align="center" style="border: 1px solid #888a85;"><a href="/bi/si010_e.asp?PA=0&amp;MM=11&amp;YY=2017" title="November 2017" style="display: block;">2017</a></td>		<td align="center" style="border: 1px solid #888a85;"><a href="/bi/si010_e.asp?PA=0&amp;MM=11&amp;YY=2018" title="5 Jahre vor" style="display: block;">&gt;&gt;</a></td>		<td align="right" colspan="5"><form method="post" action="/bi/si010_e.asp" name="kaldatform" id="kaldatform" style="margin:0"><div id="posDiv" style="position:absolute;"></div><div id="calDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div>Zeitraum:&nbsp;<input type="text" size="9" name="kaldatvon" id="kaldatvon" value="01.11.2015" onclick="showCal('kaldatform', 'kaldatvon');" onchange="on_change()"  /> - <input type="text" size="9" name="kaldatbis" id="kaldatbis" value="30.11.2015" onclick="showCal('kaldatform', 'kaldatbis');" onchange="on_change()"  />
+<input type="image" class="il1" src="images/lupe.gif" alt="Datumsbereich auswählen"  /></form></td>		<td>&nbsp;</td>	</tr>
+	<tr>
+		<td align="center" style="border: 1px solid #888a85;" width="1%"><a href="/bi/si010_e.asp?PA=0&amp;MM=10&amp;YY=2015" title="Vorheriger Monat" style="display: block;">&lt;</a></td>		<td align="center" style="border: 1px solid #888a85;" width="8%"><a href="/bi/si010_e.asp?PA=0&amp;MM=1&amp;YY=2015" title="Januar 2015" style="display: block;">Jan</a></td>		<td align="center" style="border: 1px solid #888a85;" width="8%"><a href="/bi/si010_e.asp?PA=0&amp;MM=2&amp;YY=2015" title="Februar 2015" style="display: block;">Feb</a></td>		<td align="center" style="border: 1px solid #888a85;" width="8%"><a href="/bi/si010_e.asp?PA=0&amp;MM=3&amp;YY=2015" title="März 2015" style="display: block;">Mar</a></td>		<td align="center" style="border: 1px solid #888a85;" width="8%"><a href="/bi/si010_e.asp?PA=0&amp;MM=4&amp;YY=2015" title="April 2015" style="display: block;">Apr</a></td>		<td align="center" style="border: 1px solid #888a85;" width="8%"><a href="/bi/si010_e.asp?PA=0&amp;MM=5&amp;YY=2015" title="Mai 2015" style="display: block;">Mai</a></td>		<td align="center" style="border: 1px solid #888a85;" width="8%"><a href="/bi/si010_e.asp?PA=0&amp;MM=6&amp;YY=2015" title="Juni 2015" style="display: block;">Jun</a></td>		<td align="center" style="border: 1px solid #888a85;" width="8%"><a href="/bi/si010_e.asp?PA=0&amp;MM=7&amp;YY=2015" title="Juli 2015" style="display: block;">Jul</a></td>		<td align="center" style="border: 1px solid #888a85;" width="8%"><a href="/bi/si010_e.asp?PA=0&amp;MM=8&amp;YY=2015" title="August 2015" style="display: block;">Aug</a></td>		<td align="center" style="border: 1px solid #888a85;" width="8%"><a href="/bi/si010_e.asp?PA=0&amp;MM=9&amp;YY=2015" title="September 2015" style="display: block;">Sep</a></td>		<td align="center" style="border: 1px solid #888a85;" width="8%"><a href="/bi/si010_e.asp?PA=0&amp;MM=10&amp;YY=2015" title="Oktober 2015" style="display: block;">Okt</a></td>		<td class="zl17" align="center" style="border: 1px solid #888a85;" width="8%">Nov</td>		<td align="center" style="border: 1px solid #888a85;" width="8%"><a href="/bi/si010_e.asp?PA=0&amp;MM=12&amp;YY=2015" title="Dezember 2015" style="display: block;">Dez</a></td>		<td align="center" style="border: 1px solid #888a85;" width="1%"><a href="/bi/si010_e.asp?PA=0&amp;MM=12&amp;YY=2015" title="Nächster Monat" style="display: block;">&gt;</a></td>	</tr>
+	</table>
+<table class="tl1" cellspacing="0" cellpadding="1" border="0">
+	<tr class="zl17">
+<td class="text2" width="20">So</td><td class="text2" width="20">&nbsp;&nbsp;1</td>
+		<td colspan="8">&nbsp;</td>
+	</tr>
+	<tr class="zl11" valign="top">
+<td class="text2" width="20">Mo</td><td class="text2" width="20">&nbsp;&nbsp;2</td>
+		<td class="text2">&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1002133"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>AUSFALL - Ortschaftsrat Engelsdorf (vertagt auf den <a href="si010_e.asp?YY=2015&amp;MM=11&amp;DD=09" title="Sitzungskalender 11/2015 anzeigen">09.11.2015</a>)</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">&nbsp;</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">13:00 - 14:15&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001137"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Vergabegremium VOL</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. U 28</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">13:30 - 14:30&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000381"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Fraktionsgeschäftsführerberatung</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 266</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">16:30 - 19:00&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001762"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Sitzung des Jugendhilfeausschusses/UA Finanzen</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 260</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">17:00 - 18:05&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000781"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000781"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td><a href="to010.asp?SILFDNR=1000781">Grundstücksverkehrsausschuss</a></td>
+<td><form action="si016.asp?SELECT=1" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000781"  /><input type="submit" class="il1_ns" value="Pro" title="Protokoll"  /></form></td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 259</td>
+	</tr>
+	<tr class="zl12" valign="top">
+<td class="text2" width="20">Di</td><td class="text2" width="20">&nbsp;&nbsp;3</td>
+		<td class="text2">16:30 - 17:45&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000521"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Fachausschuss Allgemeine Verwaltung</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 259</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">16:30 - 18:10&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000050"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Fachausschuss Umwelt und Ordnung</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 260</td>
+	</tr>
+	<tr class="zl11" valign="top">
+<td class="text2" width="20">Mi</td><td class="text2" width="20">&nbsp;&nbsp;4</td>
+		<td class="text2">16:00 - 17:00&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000380"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Ältestenrat</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 261</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">17:00 - 19:15&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000156"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000156"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td nowrap="nowrap"><a href="to010.asp?SILFDNR=1000156">Verwaltungsausschuss</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Ratsplenarsaal, Zi. 262</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">17:00 - 17:55&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000463"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000463"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td><a href="to010.asp?SILFDNR=1000463">Stadtbezirksbeirat Leipzig-Süd</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Haus der Demokratie, Zi. 103</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">17:30 - 19:00&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000393"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000393"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td><a href="to010.asp?SILFDNR=1000393">Stadtbezirksbeirat Leipzig-Altwest</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Rathaus Leutzsch, Beratungsraum 1. Etage</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">17:30&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000438"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000438"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td><a href="to010.asp?SILFDNR=1000438">Stadtbezirksbeirat Leipzig-Nordost</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Rathaus Schönefeld, Raum 100</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">18:00 - 19:35&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1002135"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1002135"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td><a href="to010.asp?SILFDNR=1002135">Ortschaftsrat Miltitz</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Grundschule Miltitz, Speiseraum</td>
+	</tr>
+	<tr class="zl12" valign="top">
+<td class="text2" width="20">Do</td><td class="text2" width="20">&nbsp;&nbsp;5</td>
+		<td class="text2">&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000426"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>AUSFALL - Stadtbezirksbeirat Leipzig-Nord (verschoben auf <a href="si010_e.asp?YY=2015&amp;MM=11&amp;DD=12" title="Sitzungskalender 11/2015 anzeigen">12.11.2015</a>)</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">&nbsp;</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">15:30 - 16:00&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001776"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Vergabegremium VOB</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Technisches Rathaus, B.2.069</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">16:00 - 18:00&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001109"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Umlegungsausschuss</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Stadthaus, Zi. 456</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">16:30 - 19:10&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000180"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Fachausschuss Jugend, Soziales, Gesundheit und Schule</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 260</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">18:00 - 19:45&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000449"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000449"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td><a href="to010.asp?SILFDNR=1000449">Stadtbezirksbeirat Leipzig-Nordwest</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Oskar-Kellner-Haus, Gustav-Kühn-Straße 8</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">18:00 - 20:30&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000404"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000404"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td><a href="to010.asp?SILFDNR=1000404">Stadtbezirksbeirat Leipzig-Mitte</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 270, Turmzimmer</td>
+	</tr>
+	<tr class="zl11" valign="top">
+<td class="text2" width="20">Fr</td><td class="text2" width="20">&nbsp;&nbsp;6</td>
+		<td class="text2">14:00 - 14:50&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001030"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Petitionsausschuss</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 263</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">15:00 - 17:30&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000309"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Fachausschuss Kultur</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 360</td>
+	</tr>
+	<tr class="zl16">
+<td class="text2" width="20">Sa</td><td class="text2" width="20">&nbsp;&nbsp;7</td>
+		<td colspan="8">&nbsp;</td>
+	</tr>
+	<tr class="zl17">
+<td class="text2" width="20">So</td><td class="text2" width="20">&nbsp;&nbsp;8</td>
+		<td colspan="8">&nbsp;</td>
+	</tr>
+	<tr class="zl11" valign="top">
+<td class="text2" width="20">Mo</td><td class="text2" width="20">&nbsp;&nbsp;9</td>
+		<td class="text2">16:30 - 18:30&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000939"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000939"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td nowrap="nowrap"><a href="to010.asp?SILFDNR=1000939">Jugendhilfeausschuss</a></td>
+<td><form action="si016.asp?SELECT=1" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000939"  /><input type="submit" class="il1_ns" value="Pro" title="Protokoll"  /></form></td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Festsaal</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">17:00 - 19:15&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000215"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Fachausschuss Finanzen</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 260</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">18:00 - 19:10&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000497"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000497"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td><a href="to010.asp?SILFDNR=1000497">Stadtbezirksbeirat Leipzig-West</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Freizeittreff "Völkerfreundschaft", Großer Saal</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">18:30 - 21:00&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000552"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000552"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td><a href="to010.asp?SILFDNR=1000552">Ortschaftsrat Lützschena-Stahmeln</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">ehemalige Grundschule Lützschena, Zi. 3</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">19:00 - 21:45&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000595"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000595"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td><a href="to010.asp?SILFDNR=1000595">Ortschaftsrat Engelsdorf</a></td>
+<td><form action="si016.asp?SELECT=1" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000595"  /><input type="submit" class="il1_ns" value="Pro" title="Protokoll"  /></form></td>
+<td>&nbsp;</td>
+		<td class="text4">Freiwillige Feuerwehr Engelsdorf, Versammlungsraum</td>
+	</tr>
+	<tr class="zl12" valign="top">
+<td class="text2" width="20">Di</td><td class="text2" width="20">10</td>
+		<td class="text2">&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000138"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>AUSFALL Fachausschuss Sport</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 260</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">17:00 - 21:20&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000102"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Fachausschuss Stadtentwicklung und Bau</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 495</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">17:00 - 18:15&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000369"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Fachausschuss Wirtschaft und Arbeit</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 259</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">19:00 - 21:00&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000573"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000573"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td><a href="to010.asp?SILFDNR=1000573">Ortschaftsrat Rückmarsdorf</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Ortsteilzentrum Rückmarsdorf</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">19:00&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001046"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001046"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td><a href="to010.asp?SILFDNR=1001046">Ortschaftsrat Lindenthal</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Rathaus Lindenthal, Ratssaal</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">19:00 - 21:00&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001057"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001057"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td><a href="to010.asp?SILFDNR=1001057">Ortschaftsrat Seehausen</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Alte Schule Göbschelwitz</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">19:00 - 20:45&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001154"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001154"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td nowrap="nowrap"><a href="to010.asp?SILFDNR=1001154">Ortschaftsrat Mölkau</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">ehem. Gemeindeamt Mölkau, Ratssaal</td>
+	</tr>
+	<tr class="zl11" valign="top">
+<td class="text2" width="20">Mi</td><td class="text2" width="20">11</td>
+		<td class="text2">&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000562"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>AUSFALL - Ortschaftsrat Hartmannsdorf-Knautnaundorf</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">&nbsp;</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">15:30 - 16:45&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000950"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Betriebsausschuss Stadtreinigung - Achtung, geänderter Sitzungsraum: Zimmer 255/Neues Rathaus</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 255</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">17:00 - 20:50&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1002086"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1002086"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td><a href="to010.asp?SILFDNR=1002086">Jugendparlament (9. Sitzung)</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 495</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">18:00 - 20:00&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000415"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000415"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td><a href="to010.asp?SILFDNR=1000415">Stadtbezirksbeirat Leipzig-Ost</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Informationszentrum Eisenbahnstraße 49</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">18:00 - 19:20&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000485"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000485"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td><a href="to010.asp?SILFDNR=1000485">Stadtbezirksbeirat Leipzig-Südwest</a></td>
+<td><form action="si016.asp?SELECT=1" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000485"  /><input type="submit" class="il1_ns" value="Pro" title="Protokoll"  /></form></td>
+<td>&nbsp;</td>
+		<td class="text4">Schule am Adler - Oberschule, Speiseraum</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">18:00 - 19:30&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1002144"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1002144"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144">Ratsversammlung</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Sitzungssaal des Stadtrates</td>
+	</tr>
+	<tr class="zl12" valign="top">
+<td class="text2" width="20">Do</td><td class="text2" width="20">12</td>
+		<td class="text2">9:30 - 12:30&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000966"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000966"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td nowrap="nowrap"><a href="to010.asp?SILFDNR=1000966">Seniorenbeirat</a></td>
+<td><form action="si016.asp?SELECT=1" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000966"  /><input type="submit" class="il1_ns" value="Pro" title="Protokoll"  /></form></td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 259</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">15:30 - 16:15&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001777"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Vergabegremium VOB</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Technisches Rathaus, B.2.069</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">17:00 - 18:10&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000804"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Betriebsausschuss Kulturstätten</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 270, Turmzimmer</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">17:00 - 18:35&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000915"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Rechnungsprüfungsausschuss</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 259</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">17:30 - 18:45&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1002141"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1002141"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td><a href="to010.asp?SILFDNR=1002141">Stadtbezirksbeirat Leipzig-Nord</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Gohlis-Center, Zi. 340</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">18:30&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000584"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000584"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td><a href="to010.asp?SILFDNR=1000584">Ortschaftsrat Böhlitz-Ehrenberg</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Große Eiche, Salon Böhlitz</td>
+	</tr>
+	<tr class="zl11" valign="top">
+<td class="text2" width="20">Fr</td><td class="text2" width="20">13</td>
+		<td class="text2">16:00 - 19:00&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001088"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001088"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td nowrap="nowrap"><a href="to010.asp?SILFDNR=1001088">Migrantenbeirat</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 259</td>
+	</tr>
+	<tr class="zl16">
+<td class="text2" width="20">Sa</td><td class="text2" width="20">14</td>
+		<td colspan="8">&nbsp;</td>
+	</tr>
+	<tr class="zl17">
+<td class="text2" width="20">So</td><td class="text2" width="20">15</td>
+		<td colspan="8">&nbsp;</td>
+	</tr>
+	<tr class="zl11" valign="top">
+<td class="text2" width="20">Mo</td><td class="text2" width="20">16</td>
+		<td class="text2">13:00&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001138"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Vergabegremium VOL</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. U 28</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">16:30 - 18:30&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001763"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Sitzung des Jugendhilfeausschusses/UA Finanzen</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 270, Turmzimmer</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">17:00 - 19:00&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000782"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000782"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td><a href="to010.asp?SILFDNR=1000782">Grundstücksverkehrsausschuss</a></td>
+<td><form action="si016.asp?SELECT=1" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000782"  /><input type="submit" class="il1_ns" value="Pro" title="Protokoll"  /></form></td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 259</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">17:00 - 19:00&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001992"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Sitzung des Fachausschusses Jugend, Soziales, Gesundheit und Schule (UA Schulentwicklung)</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">AfJFB, Naumburger Straße, Zi. C 306</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">17:00 - 18:20&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1002142"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Fachausschuss Finanzen</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 495</td>
+	</tr>
+	<tr class="zl12" valign="top">
+<td class="text2" width="20">Di</td><td class="text2" width="20">17</td>
+		<td class="text2">9:30 - 10:30&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1002193"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Sondersitzung Vergabegremium VOB</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Tagungsort siehe Tagesordnung</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">16:30 - 17:05&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000522"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Fachausschuss Allgemeine Verwaltung</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 259</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">16:30 - 19:35&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000051"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Fachausschuss Umwelt und Ordnung</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 260</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">18:30 - 20:40&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000474"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000474"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td><a href="to010.asp?SILFDNR=1000474">Stadtbezirksbeirat Leipzig-Südost</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Franz-Mehring-Schule</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">19:00 - 19:55&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001068"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001068"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td><a href="to010.asp?SILFDNR=1001068">Ortschaftsrat Wiederitzsch</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Rathaus Wiederitzsch, Rathaussaal</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">19:30&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000606"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000606"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td><a href="to010.asp?SILFDNR=1000606">Ortschaftsrat Holzhausen</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">ehem. Gemeindeamt Holzhausen, Sitzungsraum</td>
+	</tr>
+	<tr class="zl17" valign="top">
+<td class="text2" width="20">Mi</td><td class="text2" width="20">18</td>
+		<td class="text2">&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Buß und Bettag*</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">&nbsp;</td>
+	</tr>
+	<tr class="zl12" valign="top">
+<td class="text2" width="20">Do</td><td class="text2" width="20">19</td>
+		<td class="text2">13:30 - 13:38&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1002156"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Fachausschuss Jugend, Soziales, Gesundheit und Schule</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 259</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">14:00 - 19:41&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000327"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000327"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td nowrap="nowrap"><a href="to010.asp?SILFDNR=1000327">Ratsversammlung</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Sitzungssaal des Stadtrates</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">16:30 - 16:50&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1002155"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Rechnungsprüfungsausschuss</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 259</td>
+	</tr>
+	<tr class="zl11" valign="top">
+<td class="text2" width="20">Fr</td><td class="text2" width="20">20</td>
+		<td class="text2">14:00 - 14:25&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001031"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Petitionsausschuss</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 495</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">15:00 - 17:10&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000310"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Fachausschuss Kultur</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 360</td>
+	</tr>
+	<tr class="zl16">
+<td class="text2" width="20">Sa</td><td class="text2" width="20">21</td>
+		<td colspan="8">&nbsp;</td>
+	</tr>
+	<tr class="zl17">
+<td class="text2" width="20">So</td><td class="text2" width="20">22</td>
+		<td colspan="8">&nbsp;</td>
+	</tr>
+	<tr class="zl11" valign="top">
+<td class="text2" width="20">Mo</td><td class="text2" width="20">23</td>
+		<td class="text2">16:00 - 17:45&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001243"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001243"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td><a href="to010.asp?SILFDNR=1001243">Kleingartenbeirat - Bitte Sitzungsort beachten: Technisches Rathaus, Raum A.5.086</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Technisches Rathaus, A.5.086</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">16:00 - 17:45&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000956"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000956"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td nowrap="nowrap"><a href="to010.asp?SILFDNR=1000956">Behindertenbeirat</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 259</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">17:00 - 19:55&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001452"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001452"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td><a href="to010.asp?SILFDNR=1001452">Jugendparlament (10. Sitzung)</a></td>
+<td><form action="si016.asp?SELECT=1" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001452"  /><input type="submit" class="il1_ns" value="Pro" title="Protokoll"  /></form></td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 270, Turmzimmer</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">17:00 - 20:10&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000216"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Fachausschuss Finanzen</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 260</td>
+	</tr>
+	<tr class="zl12" valign="top">
+<td class="text2" width="20">Di</td><td class="text2" width="20">24</td>
+		<td class="text2">16:30 - 17:20&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000139"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Fachausschuss Sport</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 260</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">17:00 - 20:55&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000103"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Fachausschuss Stadtentwicklung und Bau</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 495</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">17:00 - 17:45&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000370"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Fachausschuss Wirtschaft und Arbeit</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 259</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">19:00&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000878"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Ortschaftsrat Plaußig</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Naturschutzstation Plaußig, Schulungsraum</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">19:00 - 21:00&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000617"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000617"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td><a href="to010.asp?SILFDNR=1000617">Ortschaftsrat Burghausen</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">ehem. Gemeindeamt Burghausen, Sitzungszimmer</td>
+	</tr>
+	<tr class="zl11">
+<td class="text2" width="20">Mi</td><td class="text2" width="20">25</td>
+		<td colspan="8">&nbsp;</td>
+	</tr>
+	<tr class="zl12" valign="top">
+<td class="text2" width="20">Do</td><td class="text2" width="20">26</td>
+		<td class="text2">15:00 - 16:00&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001778"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Vergabegremium VOB</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Technisches Rathaus, B.2.069</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">17:00 - 17:50&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000805"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Betriebsausschuss Kulturstätten</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 270, Turmzimmer</td>
+	</tr>
+	<tr class="zl12" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">17:00 - 18:25&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001901"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001901"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td nowrap="nowrap"><a href="to010.asp?SILFDNR=1001901">Jugendbeirat</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 259</td>
+	</tr>
+	<tr class="zl11">
+<td class="text2" width="20">Fr</td><td class="text2" width="20">27</td>
+		<td colspan="8">&nbsp;</td>
+	</tr>
+	<tr class="zl16">
+<td class="text2" width="20">Sa</td><td class="text2" width="20">28</td>
+		<td colspan="8">&nbsp;</td>
+	</tr>
+	<tr class="zl17" valign="top">
+<td class="text2" width="20">So</td><td class="text2" width="20">29</td>
+		<td class="text2">&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>1. Advent</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">&nbsp;</td>
+	</tr>
+	<tr class="zl11" valign="top">
+<td class="text2" width="20">Mo</td><td class="text2" width="20">30</td>
+		<td class="text2">13:00&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1001139"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Vergabegremium VOL</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. U 28</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">13:00&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000383"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td>&nbsp;</td>
+<td>Fraktionsgeschäftsführerberatung</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 266</td>
+	</tr>
+	<tr class="zl11" valign="top">
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="text2">17:00 - 18:05&nbsp;</td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000783"  /><input type="hidden" name="selfaction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /><input type="image" class="il1" src="images/calexp.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /></form></td>
+<td><form action="to010.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1000783"  /><input type="submit" class="il1_to" value="TO" title="Tagesordnung"  /></form></td>
+<td><a href="to010.asp?SILFDNR=1000783">Grundstücksverkehrsausschuss</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+		<td class="text4">Neues Rathaus, Zi. 259</td>
+	</tr>
+</table>
+</td>
+<td style="background: URL(images/deco/nodeco/e.gif) repeat-y">&nbsp;</td>
+	</tr>
+	<tr>
+		<td><img src="images/deco/nodeco/sw.gif" alt=""  /></td>
+		<td width="100%" style="background: URL(images/deco/nodeco/s.gif) repeat-x">&nbsp;</td>
+		<td><img src="images/deco/nodeco/se.gif" alt=""  /></td>
+	</tr>
+</table>
+</div>
+<div id="risfoot"><div id="foot_right"><p></p></div>
+<div id="foot_left" ><p><a href="http://www.leipzig.de/impressum/" target="_blank" title="Impressum">Impressum der Stadt Leipzig</a></p></div></div>
+</div>
+</div>
+</div></body>
+</html>
