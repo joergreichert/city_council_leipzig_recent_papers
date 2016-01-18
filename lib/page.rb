@@ -19,7 +19,7 @@ class Page
   def doc
      @doc ||= begin
       puts "Load #{self.class} from #{uri}"
-      Nokogiri::HTML(@fetcher.fetch(uri))
+      Nokogiri::HTML(@fetcher.fetch(uri).force_encoding(Encoding::ISO8859_1).encode!("UTF-8"))
     end
   end
 end
