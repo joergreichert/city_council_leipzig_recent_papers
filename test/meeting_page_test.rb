@@ -15,6 +15,7 @@ class TestMeetingPage < Minitest::Test
       # postal_code: '04109',
       # locality: 'Neues Rathaus',
       start: '2015-11-11T18:00:00+01:00',
+      state: 'öffentlich/nichtöffentlich',
       end: '2015-11-11T19:30:00+01:00'
     }
     assert_equal(expected_meeting, meeting)
