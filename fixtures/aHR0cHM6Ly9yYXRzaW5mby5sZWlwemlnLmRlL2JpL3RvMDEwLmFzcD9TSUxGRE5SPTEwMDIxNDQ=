@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<title>Tagesordnung</title>
+	<meta name="description" content="ALLRIS net Version 3.9.0SP1 (151209m)" />
+	<meta name="language" content="de" />
+	<meta name="keywords" content="Ratsinformationssystem, Ratsinfo, Sitzungsdienst, ALLRIS" />
+	<meta name="classification" content="Government" />
+	<meta name="rating" content="Safe For Kids" />
+	<link rel="shortcut icon" type="image/x-icon" href="images/ALLRIS.ico" />
+	<link rel="stylesheet" href="conf/_styles.css" />
+	<meta name="objectID" content="1002144" />
+	<meta name="infoID" content="33.3900012" />
+</head><body ><div>
+<div id="allriscontainer" class="to010">
+<div id="risleft"><div id="rislogo"><p class="topLogo"><a href="http://www.leipzig.de" target="_blank" title="Stadt Leipzig"><img src="images/skin/logoSL.png" alt="Logo Stadt Leipzig"/></a></p></div>
+<div id="risvari"><p class="topLeft">Sitzungsdienst</p></div>
+<div id="riswrap"><div id="rismenu"><ul id="menu">
+<li><strong><div style="float: left;padding: 0 0.8em 0 0.65em;"><a href="/bi/to010.asp?SILFDNR=1002144&amp;toggleMenu=1" title="Reduzieren">Bürgerinfo</a></div><div style="text-align: right;"><a href="/bi/to010.asp?SILFDNR=1002144&amp;toggleMenu=-1" style="display:inline;"><img src="images/expand.gif" alt="Alle erweitern" title="Alle erweitern" /></a><a href="/bi/to010.asp?SILFDNR=1002144&amp;toggleMenu=-2" style="display:inline;"><img src="images/collapse.gif" alt="Alle reduzieren" title="Alle reduzieren" /></a></div></strong></li>
+<li>
+	<ul>
+	<li><a href="allris.net.asp" title="Startseite">Startseite</a></li>
+	<li><a href="pa021.asp" title="Ratsversammlung">Ratsversammlung</a></li>
+	<li><a href="au020.asp?AULFDNR=1000015">Jugendparlament</a></li>
+	<li><a href="au010.asp?T1=Aussch%FCsse&amp;AU=Ausschuss&amp;SORTVON=0&amp;SORTBIS=98">Ausschüsse</a></li>
+	<li><a href="au010.asp?T1=Beir%E4te&amp;AU=Beirat&amp;SORTVON=100&amp;SORTBIS=200">Beiräte</a></li>
+	<li><a href="au010.asp?T1=Ortschaftsr%E4te&amp;AU=Ortschaftsrat&amp;SORTVON=301&amp;SORTBIS=400">Ortschaftsräte</a></li>
+	<li><a href="au010.asp?T1=Stadtbezirksbeir%E4te&amp;AU=Stadtbezirksbeirat&amp;SORTVON=401&amp;SORTBIS=500">Stadtbezirksbeiräte</a></li>
+	<li><a href="au010.asp?T1=Zweckverb%E4nde+etc%2E&amp;AU=Zweckverband&amp;SORTVON=601&amp;SORTBIS=700">Zweckverbände etc.</a></li>
+	<li><a href="fr010.asp?SELECT=1&amp;T1=Fraktionen+%26+Gruppen&amp;FR=Fraktion" title="Fraktionen und Gruppen in den politischen Gremien">Fraktionen & Gruppen</a></li>
+	</ul>
+</li>
+<li><strong><a href="/bi/to010.asp?SILFDNR=1002144&amp;toggleMenu=2" title="Reduzieren">Sitzungen</a></strong></li>
+<li>
+	<ul>
+	<li><a href="si010_e.asp" title="Sitzungstermine aller Gremien">Kalender</a></li>
+	<li><a href="si018_a.asp" title="Recherche nach wählbaren Suchkriterien">Übersicht</a></li>
+	</ul>
+</li>
+<li><strong><a href="/bi/to010.asp?SILFDNR=1002144&amp;toggleMenu=3" title="Reduzieren">Vorlagen</a></strong></li>
+<li>
+	<ul>
+	<li><a href="vo040.asp" title="Recherche nach wählbaren Suchkriterien">Übersicht</a></li>
+	<li><a href="vo036.asp" title="Aktuelle Vorlagen (Vorlage freigegeben in den letzten 14 Tagen)">aktuell</a></li>
+	</ul>
+</li>
+<li><strong><a href="/bi/to010.asp?SILFDNR=1002144&amp;toggleMenu=4" title="Reduzieren">Recherche</a></strong></li>
+<li>
+	<ul>
+	<li><a href="yw010.asp" title="Volltextsuche in Vorlagen, Sitzungen und Beschlüssen">Textrecherche</a></li>
+	<li><a href="kp040.asp">Sitzungsteilnehmer</a></li>
+<li><a href="http://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/satzungen/" target="_blank" title="Sammlung des Stadtrechtes">Stadtrecht</a></li>
+	</ul>
+</li>
+<li><strong><a href="/bi/to010.asp?SILFDNR=1002144&amp;toggleMenu=5" title="Reduzieren">Service</a></strong></li>
+<li>
+	<ul>
+	<li><a href="ba051.asp" title="Petition">Online-Petition einreichen</a></li>
+	</ul>
+</li>
+<li><strong><a href="/bi/to010.asp?SILFDNR=1002144&amp;toggleMenu=6" title="Reduzieren">Kontakt</a></strong></li>
+<li>
+	<ul>
+	<li><a href="impressum.asp" title="Impressum">Kontakt/Impressum</a></li>
+	</ul>
+</li>
+<li><strong><a href="/bi/to010.asp?SILFDNR=1002144&amp;toggleMenu=7" title="Reduzieren">Hilfe</a></strong></li>
+<li>
+	<ul>
+	<li><a href="legende.asp" title="Legende">Nutzerhinweise, Legende</a></li>
+	</ul>
+</li>
+<li><a href="http://notes.leipzig.de/eris/eris.nsf" title="eRIS Archiv">RatsInfo eRIS Archiv</a></li>
+<li><strong><a href="/bi/to010.asp?SILFDNR=1002144&amp;toggleMenu=8" title="Reduzieren">Login</a></strong></li>
+<li>
+	<ul>
+<li><a href="https://ratsinfo.leipzig.de/ri/allris.net.asp" title=" Login Stadträte">Stadträtinnen/Stadträte</a></li>
+	</ul>
+</li>
+</ul>
+</div></div>
+</div>
+<div id="risright"><div id="rishead"><p class="topHeadline">Ratsinformationssystem</p></div>
+<div id="risnavi"><ul id="navi_right">
+<li><!-- BOOKMARK_LINK --><a href="to010.asp?SILFDNR=1002144" title="Lesezeichen für Tagesordnung - Ratsversammlung" target="_self"><img src="images/bookmark.gif" alt="Lesezeichen für Tagesordnung - Ratsversammlung"  /></a><!-- BOOKMARK_LINK --></li>
+<li><a href="mailto:?subject=Ratsinformation:%20Tagesordnung%20-%20Ratsversammlung&amp;body=Online-Version%20der%20Seite:%20https://ratsinfo.leipzig.de/bi/to010.asp%3FSILFDNR=1002144%0D%0A" title="Seite versenden"><img src="images/email_gross.gif" alt="Seite versenden"  /></a></li>
+<li><form action="to010.asp?SILFDNR=1002144" target="_blank" method="post" title="Druckansicht für diese Seite"><input type="image" src="images/print.gif" alt="Druckansicht für diese Seite"  /><input type="hidden" name="SILFDNR" value="1002144"  /><input type="hidden" name="selfAction" value="Druckansicht für diese Seite"  /></form></li>
+<li><form action="to010.asp?SILFDNR=1002144" method="post"><input type="image" src="images/calexp2.gif" alt="Sitzungstermin im Outlook-kompatiblen Format exportieren" title="Sitzungstermin im Outlook-kompatiblen Format exportieren"  /><input type="hidden" name="SILFDNR" value="1002144"  /><input type="hidden" name="selfAction" value="Termin exportieren"  /><input type="hidden" name="template" value="ics"  /></form></li>
+<li><a href="ba051.asp?SILFDNR=1002144&PALFDNR=2387" title="Petition zur Sitzung"><img src="images/anfrage.gif" alt="Petition zur Sitzung"  /></a></li>
+</ul></div>
+<div id="risname"><h1>Tagesordnung - Ratsversammlung&nbsp;&nbsp;</h1>
+<div id="risprop"></div>
+<div id="rismain"><div id="posOuterLocator"></div><table class="risdeco" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td><img src="images/deco/nodeco/nw.gif" alt=""  /></td>
+		<td width="100%" style="background: URL(images/deco/nodeco/n.gif) repeat-x">&nbsp;</td>
+		<td><img src="images/deco/nodeco/ne.gif" alt=""  /></td>
+	</tr>
+	<tr>
+		<td style="background: URL(images/deco/nodeco/w.gif) repeat-y">&nbsp;</td>
+		<td bgcolor="white"><table class="tk1" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="ko1" valign="top"><table class="tk1" cellspacing="0" cellpadding="3" border="0">
+	<tr valign="top">
+		<td class="kb1">Bezeichnung:</td>
+<td class="text1" colspan="3">Ratsversammlung</td>
+	</tr>
+	<tr valign="top">
+		<td class="kb1">Gremium:</td>
+		<td class="text1" colspan="3"><a href="pa020.asp?history=switch&amp;tsDD=11&amp;tsMM=11&amp;tsYYYY=2015&amp;PALFDNR=2387">Ratsversammlung</a></td>
+	</tr>
+	<tr valign="top">
+		<td class="kb1">Datum:</td>
+		<td class="text2" nowrap="nowrap">Mi, <a href="si010_e.asp?YY=2015&amp;MM=11&amp;DD=11" title="Sitzungskalender 11/2015 anzeigen">11.11.2015</a></td>
+		<td class="kb1">Status:</td>
+		<td class="text3">öffentlich/nichtöffentlich</td>	</tr>
+	<tr valign="top">
+		<td class="kb1">Zeit:</td>
+		<td class="text2" nowrap="nowrap">18:00 - 19:30</td>
+		<td class="kb1">Anlass:</td>
+		<td class="text4">Sitzung</td>
+	</tr>
+	<tr valign="top">
+		<td class="kb1">Raum:</td>
+		<td colspan="3" class="text2">Neues Rathaus, Sitzungssaal des Stadtrates</td>
+	</tr>
+	<tr valign="top">
+		<td class="kb1">Ort:</td>
+		<td colspan="3" class="text2">Martin-Luther-Ring 4-6, 04109 Leipzig</td>
+	</tr>
+
+</table>
+</td>
+		<td class="ko2"></td>
+		<td class="me1">			<table class="tk1" cellspacing="0" cellpadding="0" border="0">
+				<tr><td><img src="images/einpix.gif" alt="" width="165" height="1" border="0"  /></td></tr>
+				<tr>
+					<td class="me1" align="left">
+<form action="si019.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1002144"  /><input type="submit" class="il2_s" value="Anwesenheit" title="Anwesenheit"  /></form>
+
+
+<form action="si017.asp" method="post" style="margin:0"><input type="hidden" name="SILFDNR" value="1002144"  /><input type="submit" class="il2_s" value="Beschl&uuml;sse" title="Beschl&uuml;sse"  /></form>
+<form action="do027.asp" method="post" style="margin:0" target="_blank"><input type="hidden" name="DOLFDNR" value="1041918"  /><input type="hidden" name="options" value="64"  /><input type="hidden" name="typ" value="134"  /><input type="submit" class="il2_p" value="Anlagen" title="Anlagen (Öffnet PDF-Datei in neuem Fenster)"  /></form>
+					</td>				</tr>
+				<tr>
+					<td class="me1" align="center"><table class="tk1" cellspacing="0" cellpadding="3" border="0">
+	<tr><td colspan="1"><img src="images/einpix.gif" alt="" width="1" height="1" /></td></tr>
+	<tr valign="top">
+		<td class="kb1" colspan="1">Anlagen:</td>
+	</tr>
+	<tr valign="top">
+		<td class="text3"><a href="___tmp/tmp/45-181-136634119699/634119699/01041904/04-Anlagen/01/RV11112015.pdf" target="_blank"  title="Anlage 1 &ouml;ffnen (Öffnet Dokument in neuem Fenster)" onmouseover="status='RV 11.11.2015 PDF-Format'; return true;" onmouseout="status=''; return true;">RV 11.11.2015 PDF-Format</a></td>
+	</tr>
+	<tr valign="top">
+		<td class="text3"><a href="___tmp/tmp/45-181-136634119699/634119699/01041904/04-Anlagen/03/Beschlussprotokoll_11_11_2015.pdf" target="_blank"  title="Anlage 2 &ouml;ffnen (Öffnet Dokument in neuem Fenster)" onmouseover="status='Beschlussprotokoll _11_11_2015'; return true;" onmouseout="status=''; return true;">Beschlussprotokoll _11_11_2015</a></td>
+	</tr>
+	<tr valign="top">
+		<td class="text3"><a href="___tmp/tmp/45-181-136634119699/634119699/01041904/04-Anlagen/04/Verlaufsprotokoll_11_11_2015.pdf" target="_blank"  title="Anlage 4 &ouml;ffnen (Öffnet Dokument in neuem Fenster)" onmouseover="status='Verlaufsprotokoll_11_11_2015'; return true;" onmouseout="status=''; return true;">Verlaufsprotokoll_11_11_2015</a></td>
+	</tr>
+</table>
+					</td>				</tr>
+			</table>
+</td>
+	</tr>
+</table>
+<hr  />
+<table class="tl1" cellspacing="0" cellpadding="1" border="0">
+	<tr class="zk1">
+		<th width="1%">TOP</th>
+		<th width="1%">&nbsp;</th>
+		<th colspan="2">Betreff</th>
+		<th colspan="3">Vorlage</th>
+	</tr>
+	<tr>
+		<td colspan="7"><hr  /></td>
+	</tr>
+	<tr class="zl12">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023648#beschluss" title="Auswählen">Ö&nbsp;1</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Eröffnung und Begrüßung</td>
+<!--1023648 -->
+<td>&nbsp;</td>
+<td></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl11">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023649#beschluss" title="Auswählen">Ö&nbsp;2</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Feststellung der Beschlussfähigkeit</td>
+<!--1023649 -->
+<td>&nbsp;</td>
+<td></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl12">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023650#beschluss" title="Auswählen">Ö&nbsp;3</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Feststellung der Tagesordnung</td>
+<!--1023650 -->
+<td>&nbsp;</td>
+<td></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl11">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023654#beschluss" title="Auswählen">Ö&nbsp;4</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Eilentscheidung des Oberbürgermeisters</td>
+<!--1023654 -->
+<td>&nbsp;</td>
+<td></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl12">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023690#beschluss" title="Auswählen">Ö&nbsp;5</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Bericht des Oberbürgermeisters</td>
+<!--1023690 -->
+<td>&nbsp;</td>
+<td></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl11">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023692#beschluss" title="Auswählen">Ö&nbsp;6</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Vorlagen I</td>
+<!--1023692 -->
+<td>&nbsp;</td>
+<td></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl12">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023697#beschluss" title="Auswählen">Ö&nbsp;6.1</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Baubeschluss: Neubau Streugutlagerhalle incl. Winterdiensttechnik und Mitarbeiter-Servicecontainer, Geithainer Straße 17, 04328 Leipzig <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Dezernat Stadtentwicklung und Bau
+Einreicher: Dezernat Umwelt, Ordnung, Sport)</span></td>
+<!--1023697 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002270"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002270">VI-DS-01553</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl11">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023698#beschluss" title="Auswählen">Ö&nbsp;6.2</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Mitgliedschaft der Stadt Leipzig/Marktamt in der GFI Gemeinschaft zur Förderung der Interessen der Deutschen Frischemärkte e.V. <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Dezernat Kultur)</span></td>
+<!--1023698 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002327"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002327">VI-DS-01596</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl12">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023699#beschluss" title="Auswählen">Ö&nbsp;6.3</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Berufliche Ausbildung der Stadt Leipzig <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Dezernat Allgemeine Verwaltung)</span></td>
+<!--1023699 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002383"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002383">VI-DS-01617</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl11">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023700#beschluss" title="Auswählen">Ö&nbsp;6.4</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Aufhebung des Ratsbeschlusses RBV - 2098/14
+Überarbeitung des B-Planes Nr. 355 "Dieskaustraße / Seumestraße - Nutzungsarten" zur Sicherung der Nahversorgung in Hartmannsdort und Knauthain <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Dezernat Stadtentwicklung und Bau)</span></td>
+<!--1023700 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002397"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002397">VI-DS-01625</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl12">
+		<td class="text4" nowrap="nowrap"><span style="background-color:#8ae234" title="Nachtrags-TOP"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1024315#beschluss" title="Auswählen (Nachtrags-TOP)">Ö&nbsp;6.4.1</a></span></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Aufhebung des Ratsbeschlusses RBV - 2098/14
+
+Überarbeitung des B-Planes Nr. 355 "Dieskaustraße / Seumestraße - Nutzungsarten" zur Sicherung der Nahversorgung in Hartmannsdort und Knauthain <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Ortschaftsrat Hartmannsdorf-Knautnaundorf)</span></td>
+<!--1024315 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002918"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002918">VI-DS-01625-ÄA-001</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl11">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023702#beschluss" title="Auswählen">Ö&nbsp;6.5</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Bewerbung der Stadt Leipzig am Wettbewerb "Zukunftsstadt" des Bundesministeriums für Bildung und Forschung (BMBF) <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Oberbürgermeister)</span></td>
+<!--1023702 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002414"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002414">VI-DS-01635</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl12">
+		<td class="text4" nowrap="nowrap"><span style="background-color:#8ae234" title="Nachtrags-TOP"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1024314#beschluss" title="Auswählen (Nachtrags-TOP)">Ö&nbsp;6.5.1</a></span></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Bewerbung der Stadt Leipzig am Wettbewerb "Zukunftsstadt" des Bundesministeriums für Bildung und Forschung (BMBF) <span style="color: #888a85" title="Zusatzinfo">(Einreicher: CDU-Fraktion)</span></td>
+<!--1024314 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002827"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002827">VI-DS-01635-ÄA-001</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl11">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023703#beschluss" title="Auswählen">Ö&nbsp;6.6</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Vorhaben- und Erschließungsplan Nr. E-67 "Gewerbegebiet Tatje", Aufhebung;
+Stadtbezirk Nordwest, Ortsteil Lützschena-Stahmeln;
+Satzungsbeschluss <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Dezernat Stadtentwicklung und Bau)</span></td>
+<!--1023703 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002417"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002417">VI-DS-01638</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl12">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023704#beschluss" title="Auswählen">Ö&nbsp;6.7</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Bebauungsplan Nr. 426 "Neubebauung Brandenburger Straße/Hofmeisterstraße/Hahnekamm";
+Stadtbezirk Mitte, Ortsteil Zentrum-Ost;
+Aufstellungsbeschluss <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Dezernat Stadtentwicklung und Bau)</span></td>
+<!--1023704 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002431"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002431">VI-DS-01647</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl11">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023705#beschluss" title="Auswählen">Ö&nbsp;6.8</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>EU-Charta für Gleichstellung von Frau und Mann - Maßnahmenkatalog <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Dezernat Allgemeine Verwaltung)</span></td>
+<!--1023705 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002434"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002434">VI-DS-01650</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl12">
+		<td class="text4" nowrap="nowrap"><span style="background-color:#8ae234" title="Nachtrags-TOP"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1024312#beschluss" title="Auswählen (Nachtrags-TOP)">Ö&nbsp;6.8.1</a></span></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>EU-Charta für Gleichstellung von Frau und Mann - Maßnahmenkatalog <span style="color: #888a85" title="Zusatzinfo">(Einreicher: CDU-Fraktion)</span></td>
+<!--1024312 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002825"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002825">VI-DS-01650-ÄA-002</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl11">
+		<td class="text4" nowrap="nowrap"><span style="background-color:#8ae234" title="Nachtrags-TOP"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1024313#beschluss" title="Auswählen (Nachtrags-TOP)">Ö&nbsp;6.8.2</a></span></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>EU-Charta für Gleichstellung von Frau und Mann - Maßnahmenkatalog <span style="color: #888a85" title="Zusatzinfo">(Einreicher: CDU-Fraktion)</span></td>
+<!--1024313 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002998"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002998">VI-DS-01650-ÄA-003</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl12">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023706#beschluss" title="Auswählen">Ö&nbsp;6.9</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Überplanmäßige Aufwendungen gemäß § 79 (1) SächsGemO für das Haushaltsjahr 2015 wegen notwendiger Umbuchungen von Auszahlungen für den 5. BA der Brandschutzertüchtigung des Gewandhauses zu Leipzig und weiterer Baumaßnahmen in 2015. <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Dezernat Kultur)</span></td>
+<!--1023706 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002446"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002446">VI-DS-01659</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl11">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023707#beschluss" title="Auswählen">Ö&nbsp;6.10</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>EFRE - Fördergebiet Leipziger Osten 2014 -2020 <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Dezernat Stadtentwicklung und Bau)</span></td>
+<!--1023707 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002463"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002463">VI-DS-01672</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl12">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023708#beschluss" title="Auswählen">Ö&nbsp;6.11</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>EFRE-Fördergebiet Leipziger Westen 2014-2020 <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Dezernat Stadtentwicklung und Bau)</span></td>
+<!--1023708 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002480"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002480">VI-DS-01686</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl11">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023709#beschluss" title="Auswählen">Ö&nbsp;6.12</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Überplanmäßige Aufwendungen gemäß § 79 (1) SächsGemO: Sozialumlage an den Kommunalen Sozialverband Sachsen (KSV) 2015 <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Dezernat Jugend, Soziales, Gesundheit und Schule)</span></td>
+<!--1023709 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002482"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002482">VI-DS-01688</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl12">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023710#beschluss" title="Auswählen">Ö&nbsp;6.13</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Bestellung des Abschlussprüfers für die Prüfung des Jahresabschlusses zum <a href="si010_e.asp?PA=2387&amp;YY=2015&amp;MM=12&amp;DD=31" title="Sitzungskalender 12/2015 anzeigen">31.12.2015</a> für den Eigenbetrieb der Stadt Leipzig -Musikschule Leipzig "Johann Sebastian Bach"- <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Dezernat Finanzen)</span></td>
+<!--1023710 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002491"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002491">VI-DS-01695</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl11">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023711#beschluss" title="Auswählen">Ö&nbsp;6.14</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Bestellung des Abschlussprüfers für die Prüfung des Jahresabschlusses zum <a href="si010_e.asp?PA=2387&amp;YY=2015&amp;MM=12&amp;DD=31" title="Sitzungskalender 12/2015 anzeigen">31.12.2015</a> für den Eigenbetrieb der Stadt Leipzig -Theater der Jungen Welt- <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Dezernat Finanzen)</span></td>
+<!--1023711 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002492"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002492">VI-DS-01696</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl12">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023712#beschluss" title="Auswählen">Ö&nbsp;6.15</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Bestellung des Abschlussprüfers für die Prüfung des Jahresabschlusses zum <a href="si010_e.asp?PA=2387&amp;YY=2015&amp;MM=12&amp;DD=31" title="Sitzungskalender 12/2015 anzeigen">31.12.2015</a> für den Eigenbetrieb der Stadt Leipzig -Stadtreinigung Leipzig- <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Dezernat Finanzen)</span></td>
+<!--1023712 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002493"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002493">VI-DS-01697</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl11">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023713#beschluss" title="Auswählen">Ö&nbsp;6.16</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Bestellung des Abschlussprüfers für die Prüfung des Jahresabschlusses zum <a href="si010_e.asp?PA=2387&amp;YY=2015&amp;MM=12&amp;DD=31" title="Sitzungskalender 12/2015 anzeigen">31.12.2015</a> für den Eigenbetrieb der Stadt Leipzig -Städtisches Klinikum "St. Georg" Leipzig- <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Dezernat Finanzen)</span></td>
+<!--1023713 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002494"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002494">VI-DS-01698</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl12">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023714#beschluss" title="Auswählen">Ö&nbsp;6.17</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Bestellung des Abschlussprüfers für die Prüfung des Jahresabschlusses zum <a href="si010_e.asp?PA=2387&amp;YY=2015&amp;MM=12&amp;DD=31" title="Sitzungskalender 12/2015 anzeigen">31.12.2015</a> für den Eigenbetrieb der Stadt Leipzig -Oper Leipzig- <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Dezernat Finanzen)</span></td>
+<!--1023714 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002495"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002495">VI-DS-01699</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl11">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023715#beschluss" title="Auswählen">Ö&nbsp;6.18</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Bestellung des Abschlussprüfers für die Prüfung des Jahresabschlusses zum <a href="si010_e.asp?PA=2387&amp;YY=2015&amp;MM=12&amp;DD=31" title="Sitzungskalender 12/2015 anzeigen">31.12.2015</a> für den Eigenbetrieb der Stadt Leipzig -Gewandhaus zu Leipzig- <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Dezernat Finanzen)</span></td>
+<!--1023715 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002496"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002496">VI-DS-01700</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl12">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023716#beschluss" title="Auswählen">Ö&nbsp;6.19</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Bestellung des Abschlussprüfers für die Prüfung des Jahresabschlusses zum <a href="si010_e.asp?PA=2387&amp;YY=2015&amp;MM=12&amp;DD=31" title="Sitzungskalender 12/2015 anzeigen">31.12.2015</a> für den Eigenbetrieb der Stadt Leipzig -Kommunaler Eigenbetrieb Leipzig/Engelsdorf- <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Dezernat Finanzen)</span></td>
+<!--1023716 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002497"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002497">VI-DS-01701</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl11">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023717#beschluss" title="Auswählen">Ö&nbsp;6.20</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Bestellung des Abschlussprüfers für die Prüfung des Jahresabschlusses zum <a href="si010_e.asp?PA=2387&amp;YY=2015&amp;MM=12&amp;DD=31" title="Sitzungskalender 12/2015 anzeigen">31.12.2015</a> für den Eigenbetrieb der Stadt Leipzig - Verbund Kommunaler Kinder- und Jugendhilfe - <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Dezernat Finanzen)</span></td>
+<!--1023717 -->
+<td>&nbsp;</td>
+<td></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl12">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023718#beschluss" title="Auswählen">Ö&nbsp;6.21</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Bestellung des Abschlussprüfers für die Prüfung des Jahresabschlusses zum <a href="si010_e.asp?PA=2387&amp;YY=2015&amp;MM=12&amp;DD=31" title="Sitzungskalender 12/2015 anzeigen">31.12.2015</a> für den Städtischen  Eigenbetrieb Behindertenhilfe <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Dezernat Finanzen)</span></td>
+<!--1023718 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002499"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002499">VI-DS-01703</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl11">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023719#beschluss" title="Auswählen">Ö&nbsp;6.22</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Bestellung des Abschlussprüfers für die Prüfung des Jahresabschlusses zum <a href="si010_e.asp?PA=2387&amp;YY=2015&amp;MM=12&amp;DD=31" title="Sitzungskalender 12/2015 anzeigen">31.12.2015</a> für den Eigenbetrieb der Stadt Leipzig -Schauspiel Leipzig- <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Dezernat Finanzen)</span></td>
+<!--1023719 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002500"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002500">VI-DS-01704</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl12">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023720#beschluss" title="Auswählen">Ö&nbsp;6.23</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Mitgliedschaft der Leipziger Städtischen Bibliotheken im Kuratorium Haus des Buches e. V. Leipzig <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Dezernat Kultur)</span></td>
+<!--1023720 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002507"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002507">VI-DS-01711</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl11">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023725#beschluss" title="Auswählen">Ö&nbsp;7</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Informationen I</td>
+<!--1023725 -->
+<td>&nbsp;</td>
+<td></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl12">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1024191#beschluss" title="Auswählen">Ö&nbsp;7.1</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Zuwendungsbericht der Stadt Leipzig für das Haushaltsjahr 2014 <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Dezernat Finanzen)</span></td>
+<!--1024191 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002126"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002126">VI-DS-01482</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl11">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023727#beschluss" title="Auswählen">Ö&nbsp;7.2</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Suchtbericht 2015 <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Dezernat Jugend, Soziales, Gesundheit und Schule)</span></td>
+<!--1023727 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002423"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002423">VI-DS-01641</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl12">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023728#beschluss" title="Auswählen">Ö&nbsp;7.3</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Berichterstattung 2015 zur jährlichen Analyse der Kosten der Unterkunft und Heizung von Leistungsberechtigten nach dem SGB II und Untersuchung der Angebotsmieten zur Überprüfung des Richtwertes für die Angemessenheit <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Dezernat Jugend, Soziales, Gesundheit und Schule)</span></td>
+<!--1023728 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002432"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002432">VI-DS-01648</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl11">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023729#beschluss" title="Auswählen">Ö&nbsp;7.4</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Jobcenter Leipzig - Halbjahresbericht zur Zielerreichung 2015 <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Dezernat Wirtschaft und Arbeit)</span></td>
+<!--1023729 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002490"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002490">VI-DS-01694</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl12">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023730#beschluss" title="Auswählen">Ö&nbsp;7.5</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Information an die Ratsversammlung: Aktueller Sachstand in  Angelegenheiten der gesetzlichen Vertretung – Bericht zum <a href="si010_e.asp?PA=2387&amp;YY=2015&amp;MM=06&amp;DD=30" title="Sitzungskalender 06/2015 anzeigen">30.06.2015</a> <span style="color: #888a85" title="Zusatzinfo">(Einreicher: Oberbürgermeister)</span></td>
+<!--1023730 -->
+<td><form action="vo020.asp" method="post" style="margin:0"><input type="hidden" name="VOLFDNR" value="1002566"  /><input type="submit" class="il1_vo" value="VO" title="Vorlage"  /></form></td>
+<td nowrap="nowrap"><a href="vo020.asp?VOLFDNR=1002566">VI-DS-01763</a></td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl11">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023731#beschluss" title="Auswählen">N&nbsp;8</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="text1">(nichtöffentlich)</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl12">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023732#beschluss" title="Auswählen">N&nbsp;9</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="text1">(nichtöffentlich)</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl11">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023733#beschluss" title="Auswählen">N&nbsp;10</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="text1">(nichtöffentlich)</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl12">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023734#beschluss" title="Auswählen">N&nbsp;11</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="text1">(nichtöffentlich)</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl11">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023736#beschluss" title="Auswählen">N&nbsp;11.1</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="text1">(nichtöffentlich)</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl12">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023735#beschluss" title="Auswählen">N&nbsp;12</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="text1">(nichtöffentlich)</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl11">
+		<td class="text4" nowrap="nowrap"><span style="background-color:#8ae234" title="Nachtrags-TOP"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1024045#beschluss" title="Auswählen (Nachtrags-TOP)">N&nbsp;12.1</a></span></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="text1">(nichtöffentlich)</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+	</tr>
+	<tr class="zl12">
+		<td class="text4" nowrap="nowrap"><a href="to010.asp?SILFDNR=1002144&TOLFDNR=1023737#beschluss" title="Auswählen">N&nbsp;13</a></td>
+		<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="text1">(nichtöffentlich)</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+</table>
+<hr />
+<!-- ### AN1041904.rtf -->
+<table class="tk1" cellspacing="0" cellpadding="3" border="0">
+	<tr><td colspan="4"><img src="images/einpix.gif" alt="" width="1" height="1" /></td></tr>
+	<tr valign="top">
+		<td class="kb1" colspan="4">Anlagen:</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr valign="top">
+		<td>&nbsp;</td>
+		<td class="text1">Nr.</td>
+		<td class="text1">Name</td>
+
+		<td class="text1">&nbsp;</td>
+		<td class="text1">&nbsp;</td>
+	</tr>
+	<tr valign="top">
+		<td><img width="11" height="16" src="images/clip.gif" alt="Anlage 1" title="Herunterladen durch Rechtsklick auf den Link und 'Ziel speichern unter...'"></td>
+		<td class="text3">1</td>
+		<td class="text3"><a href="___tmp/tmp/45-181-136634119699/634119699/01041904/04-Anlagen/01/RV11112015.pdf" target="_blank"  title="Dauer ca. 1 sec [DSL] / 13 sec [ISDN] / 15 sec [56K] (Öffnet Dokument in neuem Fenster)" onmouseover="status='RV 11.11.2015 PDF-Format (108 KB)'; return true;" onmouseout="status=''; return true;">RV 11.11.2015 PDF-Format (108 KB)</a></td>
+		<td class="text3">&nbsp;</td>
+		<td class="text3">&nbsp;</td>
+	</tr>
+	<tr valign="top">
+		<td><img width="11" height="16" src="images/clip.gif" alt="Anlage 3" title="Herunterladen durch Rechtsklick auf den Link und 'Ziel speichern unter...'"></td>
+		<td class="text3">2</td>
+		<td class="text3"><a href="___tmp/tmp/45-181-136634119699/634119699/01041904/04-Anlagen/03/Beschlussprotokoll_11_11_2015.pdf" target="_blank"  title="Dauer ca. 2 sec [DSL] / 29 sec [ISDN] / 33 sec [56K] (Öffnet Dokument in neuem Fenster)" onmouseover="status='Beschlussprotokoll _11_11_2015 (236 KB)'; return true;" onmouseout="status=''; return true;">Beschlussprotokoll _11_11_2015 (236 KB)</a></td>
+		<td class="text3">&nbsp;</td>
+		<td class="text3">&nbsp;</td>
+	</tr>
+	<tr valign="top">
+		<td><img width="11" height="16" src="images/clip.gif" alt="Anlage 4" title="Herunterladen durch Rechtsklick auf den Link und 'Ziel speichern unter...'"></td>
+		<td class="text3">4</td>
+		<td class="text3"><a href="___tmp/tmp/45-181-136634119699/634119699/01041904/04-Anlagen/04/Verlaufsprotokoll_11_11_2015.pdf" target="_blank"  title="Dauer ca. <1 sec [DSL] / 10 sec [ISDN] / 11 sec [56K] (Öffnet Dokument in neuem Fenster)" onmouseover="status='Verlaufsprotokoll_11_11_2015 (80 KB)'; return true;" onmouseout="status=''; return true;">Verlaufsprotokoll_11_11_2015 (80 KB)</a></td>
+		<td class="text3">&nbsp;</td>
+		<td class="text3">&nbsp;</td>
+	</tr>
+</table>
+</td>
+<td style="background: URL(images/deco/nodeco/e.gif) repeat-y">&nbsp;</td>
+	</tr>
+	<tr>
+		<td><img src="images/deco/nodeco/sw.gif" alt=""  /></td>
+		<td width="100%" style="background: URL(images/deco/nodeco/s.gif) repeat-x">&nbsp;</td>
+		<td><img src="images/deco/nodeco/se.gif" alt=""  /></td>
+	</tr>
+</table>
+</div>
+<div id="risfoot"><div id="foot_right"><p></p></div>
+<div id="foot_left" ><p><a href="http://www.leipzig.de/impressum/" target="_blank" title="Impressum">Impressum der Stadt Leipzig</a></p></div></div>
+</div>
+</div>
+</div></body>
+</html>
