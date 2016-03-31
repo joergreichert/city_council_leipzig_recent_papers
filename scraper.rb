@@ -4,6 +4,8 @@ require 'nokogiri'
 require 'yaml'
 require 'html_to_plain_text'
 require 'active_support/core_ext/string'
+require 'httpclient'
+require 'json'
 
 module Scraper
   module_function
@@ -21,10 +23,41 @@ class Page < Struct.new(:uri)
   def doc
     @doc ||= begin
       puts "Load #{self.class} from #{uri}"
-      Nokogiri::HTML(ScraperWiki.scrape(uri))
+      Nokogiri::HTML(scrape(uri))
     end
   end
+
+  def scrape(url, params = nil, agent = nil)
+    if agent
+      client = HTTPClient.new(:agent_name => agent)
+    else
+      client = HTTPClient.new
+    end
+    client.ssl_config.verify_mode = OpenSSL::SSL::VERIFY_NONE
+    client.receive_timeout=500
+    if HTTPClient.respond_to?("client.transparent_gzip_decompression=")
+      client.transparent_gzip_decompression = true
+    end
+
+    if params.nil?
+      html = client.get_content(url)
+    else
+      html = client.post_content(url, params)
+    end
+
+    unless HTTPClient.respond_to?("client.transparent_gzip_decompression=")
+      begin
+        gz = Zlib::GzipReader.new(StringIO.new(html))
+        return gz.read
+      rescue
+        return html
+      end
+    end
+  end
+
 end
+
+
 
 class PaperIndex < Page
   def papers
