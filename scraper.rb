@@ -116,14 +116,35 @@ class Paper < Page
   end
 
   def content
-    html = doc.css('a[name="allrisSV"] ~ div:first-of-type').first
-    text = html_to_plain_text(html)
-    text && text.match(/(\-*)(.*)/)[2]
+    extractContent('a[name="allrisSV"]', "Sachverhalt: ")
   end
 
   def resolution
-    html = doc.css('a[name="allrisBV"] ~ div:first-of-type').first
-    html_to_plain_text(html)
+    extractContent('a[name="allrisBV"]', "Beschlussvorschlag: ")
+  end
+  
+  def extractContent(selector, start)
+    shift = 7
+    text = ""
+    content = doc.css(selector)
+    if content.first
+      index = content.first.parent.children.index(content.first)
+      len = content.first.parent.children.length
+      if content.first.parent.children.length >= index+shift
+        content = content.first.parent.children[index+shift]
+        text = html_to_plain_text(content)
+        if text
+          text = text.squish
+          startIndex = text.index(start)
+          if startIndex
+            startIndex = startIndex + start.length
+            text = text[startIndex..-1]
+          end
+          puts "text: ", selector, " - ", text
+        end
+      end
+    end
+    return text
   end
 
   def scraped_at
